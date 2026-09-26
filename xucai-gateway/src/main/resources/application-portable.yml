@@ -1,0 +1,14 @@
+spring:
+  config:
+    import:
+      - classpath:xucai-portable-common.yml
+xucai:
+  auth:
+    exclude-path:
+      - "POST:/accounts/login"
+      - "POST:/accounts/admin/login"
+      - "GET:/accounts/refresh"
+      - "GET:/jwks"
+      - "GET:/products"
+      - "GET:/products/**"
+      - "GET:/sale-items/batch"

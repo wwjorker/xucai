@@ -1,0 +1,19 @@
+spring:
+  config:
+    import: classpath:xucai-isolation.yml
+  cloud:
+    gateway:
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedMethods:
+            - GET
+            - POST
+            - DELETE
+            - PUT
+            - PATCH
+            - OPTIONS
+            allowedOriginPatterns:
+            - http://127.0.0.1:5173
+            - http://127.0.0.1:5174
+xucai:

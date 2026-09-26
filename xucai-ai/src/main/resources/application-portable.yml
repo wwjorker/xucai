@@ -1,0 +1,12 @@
+spring:
+  config:
+    import:
+      - classpath:xucai-portable-common.yml
+      - classpath:xucai-portable-datasource.yml
+  data:
+    redis:
+      client-type: jedis
+xucai:
+  ai:
+    dashscope:
+      key: ${XUCAI_DASHSCOPE_KEY:}

@@ -1,0 +1,10 @@
+spring:
+  config:
+    import: classpath:xucai-isolation.yml
+
+xucai:
+  auth:
+    resource:
+      enable: true
+      includeLoginPaths: ["/**"]
+      excludeLoginPaths: ["/users/detail/*"]

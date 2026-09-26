@@ -1,0 +1,24 @@
+server:
+  port: 8094
+  tomcat:
+    uri-encoding: UTF-8
+spring:
+  profiles:
+    active: portable,xucai
+  application:
+    name: xucai-ai
+  main:
+    allow-circular-references: true
+xucai:
+  swagger:
+    enable: true
+    enableResponseWrap: true
+    title: 序采 · 采购AI接口
+    description: 办公设备选购与采购平台
+    version: v1.0
+  auth:
+    resource:
+      enable: true
+  jdbc:
+    database: xucai_ai
+  isolation-required: true

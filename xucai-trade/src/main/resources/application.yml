@@ -1,0 +1,25 @@
+server:
+  port: 8088
+  tomcat:
+    uri-encoding: UTF-8
+spring:
+  profiles:
+    active: portable,xucai
+  application:
+    name: xucai-trade
+xucai:
+  swagger:
+    enable: true
+    enableResponseWrap: true
+    title: 序采 · 采购交易接口
+    description: 办公设备选购与采购平台
+    version: v1.0
+  jdbc:
+    database: xucai_trade
+  auth:
+    resource:
+      enable: true
+      excludeLoginPaths:
+      - /order-details/enrollNum
+      - /sale-items/batch
+  isolation-required: true

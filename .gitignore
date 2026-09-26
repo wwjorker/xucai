@@ -1,0 +1,20 @@
+.runtime/
+**/.runtime/
+**/target/
+**/node_modules/
+**/dist/
+logs/
+*.log
+*.jks
+*.p12
+*.pfx
+.env
+.env.*
+.idea/
+*.iml
+__pycache__/
+*.pyc
+
+# Local build and export audit records
+/PUBLICATION.json
+/VERIFICATION.md

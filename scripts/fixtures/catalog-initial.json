@@ -1,0 +1,115 @@
+[
+  {
+    "name": "罗技 M185 无线鼠标（MR0102）",
+    "brand": "罗技",
+    "series": "M185 MR0102",
+    "categoryId": 3,
+    "description": "采用 USB 接收器的入门无线鼠标。此档案限定 MR0102 硬件版本，采购时需核对机身型号。",
+    "specJson": {
+      "hardware_model": "MR0102",
+      "connection": "2.4 GHz 无线，USB 接收器",
+      "sensor": "光学",
+      "dpi_nominal": 1000,
+      "battery": "1 × AA"
+    },
+    "sourceUrl": "https://support.logi.com/hc/en-sg/articles/360023302074-M185-Technical-Specifications",
+    "price": 7900,
+    "imageUrl": null,
+    "stock": 20,
+    "sourceCheckedAt": "2026-09-15",
+    "content": "# 罗技 M185 无线鼠标（MR0102）\n\n采用 USB 接收器的入门无线鼠标。此档案限定 MR0102 硬件版本，采购时需核对机身型号。\n\n- hardware_model：MR0102\n- connection：2.4 GHz 无线，USB 接收器\n- sensor：光学\n- dpi_nominal：1000\n- battery：1 × AA\n\n来源为官方资料，核对日期 2026-09-15。本站价格与库存仅为演示数据，非官方报价。\n\n来源：https://support.logi.com/hc/en-sg/articles/360023302074-M185-Technical-Specifications\n页面摘记记录：首批官方规格摘记（2026-09-15已核对；本次仅转存，未重新核对官网）\n地区网页不代表本地在售版本，请按准确货号复核。",
+    "sku": "logitech-m185-mr0102",
+    "sourceLocator": "首批官方规格摘记（2026-09-15已核对；本次仅转存，未重新核对官网）"
+  },
+  {
+    "name": "罗技 M100 有线鼠标",
+    "brand": "罗技",
+    "series": "M100",
+    "categoryId": 3,
+    "description": "USB 有线光学鼠标，适合基础桌面办公。",
+    "specJson": {
+      "connection": "USB 有线",
+      "cable_length_m": 1.8,
+      "sensor": "光学",
+      "dpi_nominal": 1000,
+      "button_count": 3
+    },
+    "sourceUrl": "https://support.logi.com/hc/en-za/articles/360023466193-M100-Technical-Specifications",
+    "price": 3900,
+    "imageUrl": null,
+    "stock": 20,
+    "sourceCheckedAt": "2026-09-15",
+    "content": "# 罗技 M100 有线鼠标\n\nUSB 有线光学鼠标，适合基础桌面办公。\n\n- connection：USB 有线\n- cable_length_m：1.8\n- sensor：光学\n- dpi_nominal：1000\n- button_count：3\n\n来源为官方资料，核对日期 2026-09-15。本站价格与库存仅为演示数据，非官方报价。\n\n来源：https://support.logi.com/hc/en-za/articles/360023466193-M100-Technical-Specifications\n页面摘记记录：首批官方规格摘记（2026-09-15已核对；本次仅转存，未重新核对官网）\n地区网页不代表本地在售版本，请按准确货号复核。",
+    "sku": "logitech-m100-wired",
+    "sourceLocator": "首批官方规格摘记（2026-09-15已核对；本次仅转存，未重新核对官网）"
+  },
+  {
+    "name": "罗技 K120 全尺寸有线键盘",
+    "brand": "罗技",
+    "series": "K120",
+    "categoryId": 4,
+    "description": "带数字键区的全尺寸 USB 键盘；本档案不承诺地区键位布局，采购时按具体货号核对。",
+    "specJson": {
+      "connection": "USB 有线",
+      "layout_size": "全尺寸",
+      "number_pad": true,
+      "plug_and_play": true,
+      "adjustable_tilt_legs": true
+    },
+    "sourceUrl": "https://www.logitech.com/en-gb/shop/p/k120-usb-standard-computer.920-002488",
+    "price": 6900,
+    "imageUrl": null,
+    "stock": 20,
+    "sourceCheckedAt": "2026-09-15",
+    "content": "# 罗技 K120 全尺寸有线键盘\n\n带数字键区的全尺寸 USB 键盘；本档案不承诺地区键位布局，采购时按具体货号核对。\n\n- connection：USB 有线\n- layout_size：全尺寸\n- number_pad：true\n- plug_and_play：true\n- adjustable_tilt_legs：true\n\n来源为官方资料，核对日期 2026-09-15。本站价格与库存仅为演示数据，非官方报价。\n\n来源：https://www.logitech.com/en-gb/shop/p/k120-usb-standard-computer.920-002488\n页面摘记记录：首批官方规格摘记（2026-09-15已核对；本次仅转存，未重新核对官网）\n地区网页不代表本地在售版本，请按准确货号复核。",
+    "sku": "logitech-k120-uk",
+    "sourceLocator": "首批官方规格摘记（2026-09-15已核对；本次仅转存，未重新核对官网）"
+  },
+  {
+    "name": "罗技 C270 HD 摄像头",
+    "brand": "罗技",
+    "series": "C270",
+    "categoryId": 5,
+    "description": "用于基础视频会议的 720p 摄像头，配有单声道降噪麦克风和通用夹。",
+    "specJson": {
+      "video_resolution": "720p",
+      "video_fps": 30,
+      "microphone": "单声道降噪麦克风",
+      "light_correction": "RightLight 2",
+      "mount": "可调通用夹"
+    },
+    "sourceUrl": "https://www.logitech.com/en-us/shop/p/c270-hd-webcam",
+    "price": 19900,
+    "imageUrl": null,
+    "stock": 20,
+    "sourceCheckedAt": "2026-09-15",
+    "content": "# 罗技 C270 HD 摄像头\n\n用于基础视频会议的 720p 摄像头，配有单声道降噪麦克风和通用夹。\n\n- video_resolution：720p\n- video_fps：30\n- microphone：单声道降噪麦克风\n- light_correction：RightLight 2\n- mount：可调通用夹\n\n来源为官方资料，核对日期 2026-09-15。本站价格与库存仅为演示数据，非官方报价。\n\n来源：https://www.logitech.com/en-us/shop/p/c270-hd-webcam\n页面摘记记录：首批官方规格摘记（2026-09-15已核对；本次仅转存，未重新核对官网）\n地区网页不代表本地在售版本，请按准确货号复核。",
+    "sku": "logitech-c270-us",
+    "sourceLocator": "首批官方规格摘记（2026-09-15已核对；本次仅转存，未重新核对官网）"
+  },
+  {
+    "name": "罗技 H390 USB-A 有线耳机（黑色）",
+    "brand": "罗技",
+    "series": "H390 USB-A 黑色",
+    "categoryId": 6,
+    "description": "限定黑色 USB-A 版本的办公耳机，带降噪麦克风与音量、静音线控。",
+    "specJson": {
+      "connection": "USB-A 有线",
+      "cable_length_m": 1.9,
+      "driver_diameter_mm": 30,
+      "noise_reducing_microphone": true,
+      "inline_controls": [
+        "音量",
+        "静音"
+      ]
+    },
+    "sourceUrl": "https://www.logitech.com/en-us/shop/p/h390-usb-headset",
+    "price": 24900,
+    "imageUrl": null,
+    "stock": 20,
+    "sourceCheckedAt": "2026-09-15",
+    "content": "# 罗技 H390 USB-A 有线耳机（黑色）\n\n限定黑色 USB-A 版本的办公耳机，带降噪麦克风与音量、静音线控。\n\n- connection：USB-A 有线\n- cable_length_m：1.9\n- driver_diameter_mm：30\n- noise_reducing_microphone：true\n- inline_controls：[\"音量\",\"静音\"]\n\n来源为官方资料，核对日期 2026-09-15。本站价格与库存仅为演示数据，非官方报价。\n\n来源：https://www.logitech.com/en-us/shop/p/h390-usb-headset\n页面摘记记录：首批官方规格摘记（2026-09-15已核对；本次仅转存，未重新核对官网）\n地区网页不代表本地在售版本，请按准确货号复核。",
+    "sku": "logitech-h390-usb-a-black",
+    "sourceLocator": "首批官方规格摘记（2026-09-15已核对；本次仅转存，未重新核对官网）"
+  }
+]

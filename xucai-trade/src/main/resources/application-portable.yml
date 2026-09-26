@@ -1,0 +1,5 @@
+spring:
+  config:
+    import:
+      - classpath:xucai-portable-common.yml
+      - classpath:xucai-portable-datasource.yml

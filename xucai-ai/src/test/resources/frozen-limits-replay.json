@@ -1,0 +1,614 @@
+{
+  "source": "slice-9e/evaluation.json; unchanged saved results; regression only, not a new holdout",
+  "cases": [
+    {
+      "id": "HOLD-E08",
+      "requirement": {
+        "id": "96",
+        "userId": "10001",
+        "title": "冻结40评测：HOLD-E08",
+        "rawText": "采购7套键鼠，总预算2100元；每套里面鼠标和键盘各有几个还没确定。",
+        "structured": {
+          "categoryIds": [],
+          "usage": "",
+          "mustHave": [],
+          "optional": []
+        },
+        "revision": "1",
+        "status": "OPEN",
+        "createdAt": "2026-09-16T22:36:30.551",
+        "updatedAt": "2026-09-16T22:36:30.551"
+      },
+      "result": {
+        "conditions": {
+          "budgetCents": "210000",
+          "quantity": 7,
+          "categoryIds": [
+            3,
+            4
+          ],
+          "usage": "",
+          "mustHave": [],
+          "optional": [],
+          "items": [
+            {
+              "categoryId": 3
+            },
+            {
+              "categoryId": 4
+            }
+          ]
+        },
+        "questions": [
+          "这些设备主要用于哪些工作场景？"
+        ],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "HOLD-E17",
+      "requirement": {
+        "id": "105",
+        "userId": "10001",
+        "title": "冻结40评测：HOLD-E17",
+        "rawText": "采购2个鼠标，总预算400元，用于处理采购表格。不要无线鼠标，必须使用USB有线连接。",
+        "structured": {
+          "categoryIds": [],
+          "usage": "",
+          "mustHave": [],
+          "optional": []
+        },
+        "revision": "1",
+        "status": "OPEN",
+        "createdAt": "2026-09-16T22:39:42.294",
+        "updatedAt": "2026-09-16T22:39:42.294"
+      },
+      "result": {
+        "conditions": {
+          "budgetCents": "40000",
+          "quantity": 2,
+          "categoryIds": [
+            3
+          ],
+          "usage": "处理采购表格",
+          "mustHave": [
+            "USB有线连接"
+          ],
+          "optional": [],
+          "items": [
+            {
+              "categoryId": 3,
+              "quantity": 2
+            }
+          ]
+        },
+        "questions": [],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "HOLD-C06",
+      "requirement": {
+        "id": "114",
+        "userId": "10001",
+        "title": "冻结40评测：HOLD-C06",
+        "rawText": "固定冻结评测；条件见已保存结构。",
+        "structured": {
+          "budgetCents": "49500",
+          "quantity": 5,
+          "categoryIds": [
+            3
+          ],
+          "usage": "为现有Unifying接收器补配鼠标",
+          "mustHave": [
+            "必须支持Logitech Unifying接收器"
+          ],
+          "optional": [],
+          "items": [
+            {
+              "categoryId": 3,
+              "quantity": 5
+            }
+          ]
+        },
+        "revision": "1",
+        "status": "OPEN",
+        "createdAt": "2026-09-16T22:43:49.152",
+        "updatedAt": "2026-09-16T22:43:49.152"
+      },
+      "result": {
+        "conditions": {
+          "budgetCents": "49500",
+          "quantity": 5,
+          "categoryIds": [
+            3
+          ],
+          "usage": "为现有Unifying接收器补配鼠标",
+          "mustHave": [
+            "必须支持Logitech Unifying接收器"
+          ],
+          "optional": [],
+          "items": [
+            {
+              "categoryId": 3,
+              "quantity": 5
+            }
+          ]
+        },
+        "questions": [],
+        "adjustments": [],
+        "candidate": {
+          "status": "REFERENCE",
+          "items": [
+            {
+              "productId": 1,
+              "name": "罗技 M185 无线鼠标（MR0102）",
+              "categoryId": 3,
+              "specVersion": 5,
+              "saleVersion": 29,
+              "unitPrice": 7900,
+              "quantity": 5,
+              "evidence": [
+                {
+                  "chunkId": "doc:8:v3:c1",
+                  "productId": "1",
+                  "docId": "8",
+                  "version": "3",
+                  "ruleVersion": "chunk-v1",
+                  "charStart": 24,
+                  "charEnd": 71,
+                  "text": "采用 USB 接收器的入门无线鼠标。此档案限定 MR0102 硬件版本，采购时需核对机身型号。",
+                  "docTitle": "罗技 M185 无线鼠标（MR0102） 官方规格摘记",
+                  "sourceUrl": "https://support.logi.com/hc/en-sg/articles/360023302074-M185-Technical-Specifications"
+                },
+                {
+                  "chunkId": "doc:8:v3:c2",
+                  "productId": "1",
+                  "docId": "8",
+                  "version": "3",
+                  "ruleVersion": "chunk-v1",
+                  "charStart": 73,
+                  "charEnd": 176,
+                  "text": "- hardware_model：MR0102\n- connection：2.4 GHz 无线，USB 接收器\n- sensor：光学\n- dpi_nominal：1000\n- battery：1 × AA",
+                  "docTitle": "罗技 M185 无线鼠标（MR0102） 官方规格摘记",
+                  "sourceUrl": "https://support.logi.com/hc/en-sg/articles/360023302074-M185-Technical-Specifications"
+                }
+              ],
+              "verdict": "UNKNOWN"
+            }
+          ],
+          "totalAmount": 39500,
+          "consideredProducts": 4,
+          "partialPool": true,
+          "semantic": true,
+          "notice": "已按当前商品资料进行向量相似度检索后生成候选，仅覆盖有限商品及每商品前3个片段；用途、必须条件及引用支持关系均待商家核实。未保存为采购方案，不可据此下单。",
+          "retrieval": {
+            "version": "candidate-vector-v1",
+            "model": "text-embedding-v4",
+            "dimensions": 1024,
+            "operationId": "2bcce7f8-4a1c-42b2-8930-2a7d2e88ba50",
+            "queryHash": "2d2979abcd83a0d5903a3f380fcd7b505195bf4e3b82e62b75726ac26bf619bf",
+            "perProductTopK": 3,
+            "products": [
+              {
+                "productId": 35,
+                "generation": "5d975af3-d596-5b2e-bc8f-8aa57ae1e2c9",
+                "snapshotHash": "20ae2665ce7b5dc3d09df27b28bfee9ab21d3baf528917d83cd76ea79b77eabe",
+                "hits": [
+                  {
+                    "chunkId": "doc:49:v1:c3",
+                    "rank": 1,
+                    "distance": 0.344622254372
+                  },
+                  {
+                    "chunkId": "doc:49:v1:c2",
+                    "rank": 2,
+                    "distance": 0.387185335159
+                  },
+                  {
+                    "chunkId": "doc:49:v1:c4",
+                    "rank": 3,
+                    "distance": 0.397442400455
+                  }
+                ],
+                "suppliedChunkIds": [
+                  "doc:49:v1:c3",
+                  "doc:49:v1:c2",
+                  "doc:49:v1:c4"
+                ]
+              },
+              {
+                "productId": 34,
+                "generation": "8a18808f-2ea1-5f9f-98bb-b7c71f1cc443",
+                "snapshotHash": "a95abe3c28618461e275b049af4bdf6bd2c57d4fe2797d3bcc4470512fc59461",
+                "hits": [
+                  {
+                    "chunkId": "doc:48:v1:c2",
+                    "rank": 1,
+                    "distance": 0.304845452309
+                  },
+                  {
+                    "chunkId": "doc:48:v1:c3",
+                    "rank": 2,
+                    "distance": 0.380927443504
+                  },
+                  {
+                    "chunkId": "doc:48:v1:c4",
+                    "rank": 3,
+                    "distance": 0.383997380733
+                  }
+                ],
+                "suppliedChunkIds": [
+                  "doc:48:v1:c2",
+                  "doc:48:v1:c3",
+                  "doc:48:v1:c4"
+                ]
+              },
+              {
+                "productId": 2,
+                "generation": "d683a33a-07d4-5a74-8f28-23826488557b",
+                "snapshotHash": "7f49b4cce09a408fb2587a79e0f015259216b4a46d471430a1b10946dba99045",
+                "hits": [
+                  {
+                    "chunkId": "doc:2:v1:c1",
+                    "rank": 1,
+                    "distance": 0.342472136021
+                  },
+                  {
+                    "chunkId": "doc:2:v1:c2",
+                    "rank": 2,
+                    "distance": 0.441622316837
+                  },
+                  {
+                    "chunkId": "doc:2:v1:c3",
+                    "rank": 3,
+                    "distance": 0.611324250698
+                  }
+                ],
+                "suppliedChunkIds": [
+                  "doc:2:v1:c1",
+                  "doc:2:v1:c2",
+                  "doc:2:v1:c3"
+                ]
+              },
+              {
+                "productId": 1,
+                "generation": "5d7fd1ad-d19d-5b6e-8794-b8c76f7ea178",
+                "snapshotHash": "2d9ed83182d00ce88aca8c41ba3ebf46937bfefcb396c0bd61b186874e252255",
+                "hits": [
+                  {
+                    "chunkId": "doc:8:v3:c1",
+                    "rank": 1,
+                    "distance": 0.292648077011
+                  },
+                  {
+                    "chunkId": "doc:8:v3:c2",
+                    "rank": 2,
+                    "distance": 0.43315911293
+                  },
+                  {
+                    "chunkId": "doc:8:v3:c4",
+                    "rank": 3,
+                    "distance": 0.575460553169
+                  }
+                ],
+                "suppliedChunkIds": [
+                  "doc:8:v3:c1",
+                  "doc:8:v3:c2",
+                  "doc:8:v3:c4"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "products": [
+    {
+      "id": "26",
+      "name": "Dell U2724DE · 210-BKSJ",
+      "brand": "Dell",
+      "series": "U2724DE · 210-BKSJ",
+      "categoryId": 1,
+      "description": "Thunderbolt上行与独立USB-C数据上行功能不同；不承诺任意USB-C主机均可输出视频。",
+      "specJson": {
+        "resolution": "2560 × 1440",
+        "usb_c_role": "Thunderbolt 4上行视频与数据，最高90W；独立USB-C上行仅数据",
+        "screen_inches": 27,
+        "source_region": "美国",
+        "refresh_rate_hz": 120
+      },
+      "specVersion": "1",
+      "status": "PUBLISHED",
+      "sale": {
+        "productId": "26",
+        "price": "359900",
+        "stock": 20,
+        "onSale": true,
+        "saleVersion": "1"
+      },
+      "priceAvailable": true,
+      "purchasable": true,
+      "purchaseMessage": "可购买"
+    },
+    {
+      "id": "25",
+      "name": "Dell P2425HE · 210-BMNH",
+      "brand": "Dell",
+      "series": "P2425HE · 210-BMNH",
+      "categoryId": 1,
+      "description": "笔记本需支持相应视频协议；上行视频接口与下行数据接口不可混用，主机兼容性待逐机核实。",
+      "specJson": {
+        "resolution": "1920 × 1080",
+        "usb_c_role": "上行支持DP 1.4 Alt Mode，最高90W；下行最高15W仅数据",
+        "screen_inches": 23.8,
+        "source_region": "新加坡",
+        "refresh_rate_hz": 100
+      },
+      "specVersion": "1",
+      "status": "PUBLISHED",
+      "sale": {
+        "productId": "25",
+        "price": "189900",
+        "stock": 20,
+        "onSale": true,
+        "saleVersion": "1"
+      },
+      "priceAvailable": true,
+      "purchasable": true,
+      "purchaseMessage": "可购买"
+    },
+    {
+      "id": "24",
+      "name": "Dell P2425H · 210-BMFF",
+      "brand": "Dell",
+      "series": "P2425H · 210-BMFF",
+      "categoryId": 1,
+      "description": "USB-C接口仅用于下行数据与最高15W供电；不能当作笔记本视频输入。",
+      "specJson": {
+        "resolution": "1920 × 1080",
+        "usb_c_role": "下行数据接口，最高15W，不传视频",
+        "screen_inches": 23.8,
+        "source_region": "英国",
+        "refresh_rate_hz": 100
+      },
+      "specVersion": "1",
+      "status": "PUBLISHED",
+      "sale": {
+        "productId": "24",
+        "price": "129900",
+        "stock": 20,
+        "onSale": true,
+        "saleVersion": "1"
+      },
+      "priceAvailable": true,
+      "purchasable": true,
+      "purchaseMessage": "可购买"
+    },
+    {
+      "id": "36",
+      "name": "Logitech M720 Triathlon 黑色",
+      "brand": "Logitech",
+      "series": "M720 Triathlon 黑色",
+      "categoryId": 3,
+      "description": "三台指设备配对与切换，不是接收器外设容量；不承诺Flow无需软件即可使用。",
+      "specJson": {
+        "scrolling": "高速与逐行双模式",
+        "connections": [
+          "Bluetooth",
+          "Logitech Unifying USB接收器"
+        ],
+        "source_region": "美国",
+        "hand_orientation": "右手",
+        "max_switchable_devices": 3
+      },
+      "specVersion": "1",
+      "status": "PUBLISHED",
+      "sale": {
+        "productId": "36",
+        "price": "29900",
+        "stock": 20,
+        "onSale": true,
+        "saleVersion": "1"
+      },
+      "priceAvailable": true,
+      "purchasable": true,
+      "purchaseMessage": "可购买"
+    },
+    {
+      "id": "35",
+      "name": "Logitech M235 灰色",
+      "brand": "Logitech",
+      "series": "M235 灰色",
+      "categoryId": 3,
+      "description": "硬件版本、地区货号及DPI待核实；左右键交换可能需要软件配置。",
+      "specJson": {
+        "sensor": "光学",
+        "scrolling": "逐行滚动",
+        "connection": "USB无线接收器",
+        "source_region": "阿联酋",
+        "hand_orientation": "左右手均可使用"
+      },
+      "specVersion": "1",
+      "status": "PUBLISHED",
+      "sale": {
+        "productId": "35",
+        "price": "8900",
+        "stock": 20,
+        "onSale": true,
+        "saleVersion": "1"
+      },
+      "priceAvailable": true,
+      "purchasable": true,
+      "purchaseMessage": "可购买"
+    },
+    {
+      "id": "34",
+      "name": "Logitech M330 SILENT PLUS · M-R0112",
+      "brand": "Logitech",
+      "series": "M330 SILENT PLUS · M-R0112",
+      "categoryId": 3,
+      "description": "限定M-R0112，不混用旧M-R0051的Unifying Ready规格；不标蓝牙或通用接收器兼容。",
+      "specJson": {
+        "battery": "1 × AA",
+        "connection": "2.4 GHz无线，USB接收器",
+        "dpi_nominal": 1000,
+        "source_region": "美国",
+        "hardware_model": "M-R0112",
+        "receiver_protocol": "Logitech non-Unifying"
+      },
+      "specVersion": "1",
+      "status": "PUBLISHED",
+      "sale": {
+        "productId": "34",
+        "price": "9900",
+        "stock": 20,
+        "onSale": true,
+        "saleVersion": "1"
+      },
+      "priceAvailable": true,
+      "purchasable": true,
+      "purchaseMessage": "可购买"
+    },
+    {
+      "id": "2",
+      "name": "罗技 M100 有线鼠标",
+      "brand": "罗技",
+      "series": "M100",
+      "categoryId": 3,
+      "description": "USB 有线光学鼠标，适合基础桌面办公。",
+      "specJson": {
+        "sensor": "光学",
+        "connection": "USB 有线",
+        "dpi_nominal": 1000,
+        "button_count": 3,
+        "cable_length_m": 1.8
+      },
+      "specVersion": "1",
+      "status": "PUBLISHED",
+      "sale": {
+        "productId": "2",
+        "price": "3900",
+        "stock": 18,
+        "onSale": true,
+        "saleVersion": "1"
+      },
+      "priceAvailable": true,
+      "purchasable": true,
+      "purchaseMessage": "可购买"
+    },
+    {
+      "id": "1",
+      "name": "罗技 M185 无线鼠标（MR0102）",
+      "brand": "罗技",
+      "series": "M185 MR0102",
+      "categoryId": 3,
+      "description": "采用 USB 接收器的入门无线鼠标。此档案限定 MR0102 硬件版本，采购时需核对机身型号。",
+      "specJson": {
+        "sensor": "光学",
+        "battery": "1 × AA",
+        "connection": "2.4 GHz 无线，USB 接收器",
+        "dpi_nominal": 1000,
+        "hardware_model": "MR0102"
+      },
+      "specVersion": "5",
+      "status": "PUBLISHED",
+      "sale": {
+        "productId": "1",
+        "price": "7900",
+        "stock": 20,
+        "onSale": true,
+        "saleVersion": "29"
+      },
+      "priceAvailable": true,
+      "purchasable": true,
+      "purchaseMessage": "可购买"
+    },
+    {
+      "id": "38",
+      "name": "Logitech K780",
+      "brand": "Logitech",
+      "series": "K780",
+      "categoryId": 4,
+      "description": "连接协议为Unifying而非Logi Bolt；具体硬件版本、键位地区及斑点款式待核实。",
+      "specJson": {
+        "number_pad": true,
+        "connections": [
+          "Bluetooth",
+          "Logitech Unifying USB接收器"
+        ],
+        "source_region": "英国",
+        "keyboard_layout_region": "待核实",
+        "max_switchable_devices": 3
+      },
+      "specVersion": "1",
+      "status": "PUBLISHED",
+      "sale": {
+        "productId": "38",
+        "price": "49900",
+        "stock": 20,
+        "onSale": true,
+        "saleVersion": "1"
+      },
+      "priceAvailable": true,
+      "purchasable": true,
+      "purchaseMessage": "可购买"
+    },
+    {
+      "id": "37",
+      "name": "Logitech K270 · 920-003745",
+      "brand": "Logitech",
+      "series": "K270 · 920-003745",
+      "categoryId": 4,
+      "description": "英国网页不等于已核实英式键位；具体键位地区需按实物货号核实，不标蓝牙。",
+      "specJson": {
+        "connection": "Logitech Unifying USB接收器",
+        "layout_size": "全尺寸，带数字键区",
+        "source_region": "英国",
+        "shortcut_key_count": 8,
+        "adjustable_tilt_legs": true,
+        "keyboard_layout_region": "待核实"
+      },
+      "specVersion": "1",
+      "status": "PUBLISHED",
+      "sale": {
+        "productId": "37",
+        "price": "14900",
+        "stock": 20,
+        "onSale": true,
+        "saleVersion": "1"
+      },
+      "priceAvailable": true,
+      "purchasable": true,
+      "purchaseMessage": "可购买"
+    },
+    {
+      "id": "3",
+      "name": "罗技 K120 全尺寸有线键盘",
+      "brand": "罗技",
+      "series": "K120",
+      "categoryId": 4,
+      "description": "带数字键区的全尺寸 USB 键盘；本档案不承诺地区键位布局，采购时按具体货号核对。",
+      "specJson": {
+        "connection": "USB 有线",
+        "number_pad": true,
+        "layout_size": "全尺寸",
+        "plug_and_play": true,
+        "adjustable_tilt_legs": true
+      },
+      "specVersion": "1",
+      "status": "PUBLISHED",
+      "sale": {
+        "productId": "3",
+        "price": "6900",
+        "stock": 19,
+        "onSale": true,
+        "saleVersion": "1"
+      },
+      "priceAvailable": true,
+      "purchasable": true,
+      "purchaseMessage": "可购买"
+    }
+  ]
+}

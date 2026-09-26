@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://${XUCAI_DB_HOST:127.0.0.1}:${XUCAI_DB_PORT:3306}/${xucai.jdbc.database}?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false&serverRSAPublicKeyFile=${XUCAI_DB_RSA_PUBLIC_KEY:}
+    username: ${XUCAI_DB_USERNAME:xucai_app}
+    password: ${XUCAI_DB_PASSWORD}
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/**/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+  global-config:
+    db-config:
+      id-type: assign_id

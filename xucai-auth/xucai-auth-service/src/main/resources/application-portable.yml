@@ -1,0 +1,11 @@
+spring:
+  config:
+    import:
+      - classpath:xucai-portable-common.yml
+      - classpath:xucai-portable-datasource.yml
+encrypt:
+  key-store:
+    alias: ${XUCAI_JWT_ALIAS}
+    location: ${XUCAI_JWT_LOCATION}
+    password: ${XUCAI_JWT_PASSWORD}
+    secret: ${XUCAI_JWT_PASSWORD}

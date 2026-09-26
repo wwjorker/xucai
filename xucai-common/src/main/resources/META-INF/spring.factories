@@ -1,0 +1,9 @@
+org.springframework.boot.env.EnvironmentPostProcessor=com.xucai.common.isolation.XucaiEnvironmentGuard
+
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+ com.xucai.common.autoconfigure.mvc.JsonConfig,\
+ com.xucai.common.autoconfigure.mvc.MvcConfig,\
+ com.xucai.common.autoconfigure.mvc.ParamCheckerConfig,\
+ com.xucai.common.autoconfigure.mybatis.MybatisConfig,\
+ com.xucai.common.autoconfigure.redisson.RedissonConfig,\
+ com.xucai.common.autoconfigure.swagger.Knife4jConfiguration

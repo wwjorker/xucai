@@ -1,0 +1,25 @@
+server:
+  port: 8081
+  tomcat:
+    uri-encoding: UTF-8
+spring:
+  profiles:
+    active: portable,xucai
+  application:
+    name: xucai-auth
+xucai:
+  swagger:
+    enable: true
+    enableResponseWrap: true
+    title: 序采 · 认证接口
+    description: 办公设备选购与采购平台
+    version: v1.0
+  auth:
+    resource:
+      enable: true
+      includeLoginPaths:
+      - /menus/me
+      - /accounts/logout
+  jdbc:
+    database: xucai_auth
+  isolation-required: true

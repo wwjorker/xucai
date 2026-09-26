@@ -1,0 +1,23 @@
+# 由各应用的 xucai profile 最后导入。不要修改共享 Nacos 配置。
+spring:
+  cloud:
+    nacos:
+      discovery:
+        group: XUCAI
+  data:
+    redis:
+      host: ${XUCAI_REDIS_HOST:127.0.0.1}
+      port: 16379
+      password: ${XUCAI_REDIS_PASSWORD}
+      database: ${xucai.redis.database:15}
+xucai:
+  jdbc:
+    username: ${XUCAI_DB_USERNAME:xucai_app}
+    password: ${XUCAI_DB_PASSWORD}
+
+# API discovery is not part of the public procurement surface.
+springdoc:
+  api-docs:
+    enabled: false
+  swagger-ui:
+    enabled: false

@@ -1,0 +1,19 @@
+{
+  "groups": [
+    {
+      "name": "xucai.auth.gateway",
+      "type": "com.xucai.authsdk.gateway.config.AuthAutoConfiguration",
+      "sourceType": "com.xucai.authsdk.gateway.config.AuthProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "xucai.auth.excludePath",
+      "type": "java.util.Set",
+      "description": "不用登录就能访问的路径，ant风格通配符",
+      "sourceType": "com.xucai.authsdk.gateway.config.AuthProperties",
+      "defaultValue": ""
+    }
+  ],
+  "hints": []
+}

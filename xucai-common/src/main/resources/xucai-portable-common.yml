@@ -1,0 +1,27 @@
+# portable只使用本地文件配置；Nacos仅承担服务发现。
+server:
+  address: 127.0.0.1
+spring:
+  cloud:
+    nacos:
+      server-addr: ${XUCAI_NACOS_SERVER:127.0.0.1:8848}
+      username: ${XUCAI_NACOS_USERNAME:}
+      password: ${XUCAI_NACOS_PASSWORD:}
+      config:
+        enabled: false
+        import-check:
+          enabled: false
+      discovery:
+        namespace: ${XUCAI_NACOS_NAMESPACE:}
+        group: XUCAI
+        ip: ${XUCAI_DISCOVERY_IP:127.0.0.1}
+    openfeign:
+      client:
+        config:
+          default:
+            connectTimeout: 2000
+            readTimeout: 5000
+logging:
+  level:
+    root: INFO
+    com.xucai: INFO

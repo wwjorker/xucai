@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="序采-全部后端" type="CompoundRunConfigurationType">
+    <toRun name="序采-用户" type="Application" />
+    <toRun name="序采-认证" type="Application" />
+    <toRun name="序采-网关" type="Application" />
+    <toRun name="序采-商品目录" type="Application" />
+    <toRun name="序采-采购交易" type="Application" />
+    <toRun name="序采-AI助手" type="Application" />
+    <method v="2" />
+  </configuration>
+</component>

@@ -1,0 +1,1328 @@
+{
+  "source": "slice-9b saved results; offline replay, not a new provider call",
+  "cases": [
+    {
+      "id": "DEV-E04",
+      "requirement": {
+        "id": "52",
+        "userId": "10001",
+        "title": "开发40评测：DEV-E04",
+        "rawText": "两个人各一套键鼠，耳机数量稍后确认，整单预算2500元。",
+        "structured": {
+          "categoryIds": [],
+          "usage": "",
+          "mustHave": [],
+          "optional": []
+        },
+        "revision": "1",
+        "status": "OPEN",
+        "createdAt": "2026-09-16T21:06:25.770",
+        "updatedAt": "2026-09-16T21:06:25.770"
+      },
+      "result": {
+        "conditions": {
+          "budgetCents": "250000",
+          "categoryIds": [
+            3,
+            4,
+            6
+          ],
+          "usage": "",
+          "mustHave": [],
+          "optional": [
+            "耳机数量稍后确认"
+          ],
+          "items": [
+            {
+              "categoryId": 3,
+              "quantity": 2
+            },
+            {
+              "categoryId": 4,
+              "quantity": 2
+            },
+            {
+              "categoryId": 6
+            }
+          ]
+        },
+        "questions": [
+          "每类设备分别需要多少件？请填写设备数量，不用人数代替。"
+        ],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "DEV-E08",
+      "requirement": {
+        "id": "56",
+        "userId": "10001",
+        "title": "开发40评测：DEV-E08",
+        "rawText": "买3台显示器，每台不超过2000元；整单预算尚未确定。",
+        "structured": {
+          "categoryIds": [],
+          "usage": "",
+          "mustHave": [],
+          "optional": []
+        },
+        "revision": "1",
+        "status": "OPEN",
+        "createdAt": "2026-09-16T21:06:39.440",
+        "updatedAt": "2026-09-16T21:06:39.440"
+      },
+      "result": {
+        "conditions": {
+          "quantity": 3,
+          "categoryIds": [
+            1
+          ],
+          "usage": "",
+          "mustHave": [
+            "每台不超过2000元"
+          ],
+          "optional": [],
+          "items": [
+            {
+              "categoryId": 1,
+              "quantity": 3
+            }
+          ]
+        },
+        "questions": [
+          "这次采购的总预算是多少元？暂未确定可以先留空。"
+        ],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "DEV-E09",
+      "requirement": {
+        "id": "57",
+        "userId": "10001",
+        "title": "开发40评测：DEV-E09",
+        "rawText": "给10人的团队买显示器，实际要几台还没决定。",
+        "structured": {
+          "categoryIds": [],
+          "usage": "",
+          "mustHave": [],
+          "optional": []
+        },
+        "revision": "1",
+        "status": "OPEN",
+        "createdAt": "2026-09-16T21:06:42.814",
+        "updatedAt": "2026-09-16T21:06:42.814"
+      },
+      "result": {
+        "conditions": {
+          "categoryIds": [
+            1
+          ],
+          "usage": "团队办公",
+          "mustHave": [],
+          "optional": [],
+          "items": [
+            {
+              "categoryId": 1
+            }
+          ]
+        },
+        "questions": [
+          "每类设备分别需要多少件？请填写设备数量，不用人数代替。"
+        ],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "DEV-E13",
+      "requirement": {
+        "id": "61",
+        "userId": "10001",
+        "title": "开发40评测：DEV-E13",
+        "rawText": "两只鼠标用于日常办公，便宜点就行，还没确定总预算。",
+        "structured": {
+          "categoryIds": [],
+          "usage": "",
+          "mustHave": [],
+          "optional": []
+        },
+        "revision": "1",
+        "status": "OPEN",
+        "createdAt": "2026-09-16T21:06:55.143",
+        "updatedAt": "2026-09-16T21:06:55.143"
+      },
+      "result": {
+        "conditions": {
+          "quantity": 2,
+          "categoryIds": [
+            3
+          ],
+          "usage": "日常办公",
+          "mustHave": [],
+          "optional": [
+            "便宜点"
+          ],
+          "items": [
+            {
+              "categoryId": 3,
+              "quantity": 2
+            }
+          ]
+        },
+        "questions": [
+          "这次采购的总预算是多少元？暂未确定可以先留空。"
+        ],
+        "adjustments": [
+          "已按完整的分类明细计算总件数；请核对各类设备数量。",
+          "各类设备数量已齐全，已省略重复询问数量的问题。其他待确认问题仍保留。"
+        ]
+      }
+    },
+    {
+      "id": "DEV-E17",
+      "requirement": {
+        "id": "65",
+        "userId": "10001",
+        "title": "开发40评测：DEV-E17",
+        "rawText": "预算300元采购一套办公设备，但一套具体包含什么还没决定。",
+        "structured": {
+          "categoryIds": [],
+          "usage": "",
+          "mustHave": [],
+          "optional": []
+        },
+        "revision": "1",
+        "status": "OPEN",
+        "createdAt": "2026-09-16T21:07:08.552",
+        "updatedAt": "2026-09-16T21:07:08.552"
+      },
+      "result": {
+        "conditions": {
+          "budgetCents": "30000",
+          "categoryIds": [],
+          "usage": "",
+          "mustHave": [],
+          "optional": []
+        },
+        "questions": [
+          "需要采购哪些类型的办公设备？",
+          "每类设备分别需要多少件？请填写设备数量，不用人数代替。",
+          "这些设备主要用于哪些工作场景？"
+        ],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "DEV-E18",
+      "requirement": {
+        "id": "66",
+        "userId": "10001",
+        "title": "开发40评测：DEV-E18",
+        "rawText": "键鼠一套，预算200元，不要求无线，有线也可以。",
+        "structured": {
+          "categoryIds": [],
+          "usage": "",
+          "mustHave": [],
+          "optional": []
+        },
+        "revision": "1",
+        "status": "OPEN",
+        "createdAt": "2026-09-16T21:07:10.859",
+        "updatedAt": "2026-09-16T21:07:10.859"
+      },
+      "result": {
+        "conditions": {
+          "budgetCents": "20000",
+          "quantity": 2,
+          "categoryIds": [
+            3,
+            4
+          ],
+          "usage": "",
+          "mustHave": [],
+          "optional": [
+            "有线"
+          ],
+          "items": [
+            {
+              "categoryId": 3,
+              "quantity": 1
+            },
+            {
+              "categoryId": 4,
+              "quantity": 1
+            }
+          ]
+        },
+        "questions": [
+          "这些设备主要用于哪些工作场景？"
+        ],
+        "adjustments": []
+      }
+    },
+    {
+      "id": "DEV-C13",
+      "requirement": {
+        "id": "81",
+        "userId": "10001",
+        "title": "开发40评测：DEV-C13",
+        "rawText": "固定开发评测；条件见已保存结构。",
+        "structured": {
+          "budgetCents": "50000",
+          "quantity": 1,
+          "categoryIds": [
+            3
+          ],
+          "usage": "办公",
+          "mustHave": [
+            "硬件型号M-R0112",
+            "Unifying接收器"
+          ],
+          "optional": [],
+          "items": [
+            {
+              "categoryId": 3,
+              "quantity": 1
+            }
+          ]
+        },
+        "revision": "1",
+        "status": "OPEN",
+        "createdAt": "2026-09-16T21:09:54.240",
+        "updatedAt": "2026-09-16T21:09:54.240"
+      },
+      "result": {
+        "conditions": {
+          "budgetCents": "50000",
+          "quantity": 1,
+          "categoryIds": [
+            3
+          ],
+          "usage": "办公",
+          "mustHave": [
+            "硬件型号M-R0112",
+            "Unifying接收器"
+          ],
+          "optional": [],
+          "items": [
+            {
+              "categoryId": 3,
+              "quantity": 1
+            }
+          ]
+        },
+        "questions": [],
+        "adjustments": [],
+        "candidate": {
+          "status": "REFERENCE",
+          "items": [
+            {
+              "productId": 34,
+              "name": "Logitech M330 SILENT PLUS · M-R0112",
+              "categoryId": 3,
+              "specVersion": 1,
+              "saleVersion": 1,
+              "unitPrice": 9900,
+              "quantity": 1,
+              "evidence": [
+                {
+                  "chunkId": "doc:48:v1:c2",
+                  "productId": "34",
+                  "docId": "48",
+                  "version": "1",
+                  "ruleVersion": "chunk-v1",
+                  "charStart": 72,
+                  "charEnd": 175,
+                  "text": "- 资料地区：美国\n- 硬件型号：M-R0112\n- 连接方式：2.4 GHz无线，USB接收器\n- 接收器协议：Logitech non-Unifying\n- 电池：1 × AA\n- 标称DPI：1000",
+                  "docTitle": "Logitech M330 SILENT PLUS · M-R0112 官方规格摘记",
+                  "sourceUrl": "https://support.logi.com/hc/en-us/articles/360023302834-Wireless-Mouse-M330-Technical-Specifications"
+                },
+                {
+                  "chunkId": "doc:48:v1:c4",
+                  "productId": "34",
+                  "docId": "48",
+                  "version": "1",
+                  "ruleVersion": "chunk-v1",
+                  "charStart": 362,
+                  "charEnd": 414,
+                  "text": "限定M-R0112，不混用旧M-R0051的Unifying Ready规格；不标蓝牙或通用接收器兼容。",
+                  "docTitle": "Logitech M330 SILENT PLUS · M-R0112 官方规格摘记",
+                  "sourceUrl": "https://support.logi.com/hc/en-us/articles/360023302834-Wireless-Mouse-M330-Technical-Specifications"
+                }
+              ],
+              "verdict": "UNKNOWN"
+            }
+          ],
+          "totalAmount": 9900,
+          "consideredProducts": 5,
+          "partialPool": true,
+          "semantic": true,
+          "notice": "已按当前商品资料进行向量相似度检索后生成候选，仅覆盖有限商品及每商品前3个片段；用途、必须条件及引用支持关系均待商家核实。未保存为采购方案，不可据此下单。",
+          "retrieval": {
+            "version": "candidate-vector-v1",
+            "model": "text-embedding-v4",
+            "dimensions": 1024,
+            "operationId": "e72746f9-5957-4c0d-b53e-ee25ebe4ab77",
+            "queryHash": "c5488bf5c931a0de22952e31e09bd571e6cb9bda8b3fc2f8c2adcbce5d806815",
+            "perProductTopK": 3,
+            "products": [
+              {
+                "productId": 36,
+                "generation": "0acdf28b-8f24-5083-90de-9ae4505e1ec3",
+                "snapshotHash": "9998e60c573edf185d1abee285f591b20fcde57ff9dfd38ff75360a47751784b",
+                "hits": [
+                  {
+                    "chunkId": "doc:50:v1:c2",
+                    "rank": 1,
+                    "distance": 0.402445137501
+                  },
+                  {
+                    "chunkId": "doc:50:v1:c4",
+                    "rank": 2,
+                    "distance": 0.422647476196
+                  },
+                  {
+                    "chunkId": "doc:50:v1:c3",
+                    "rank": 3,
+                    "distance": 0.443684995174
+                  }
+                ],
+                "suppliedChunkIds": [
+                  "doc:50:v1:c2",
+                  "doc:50:v1:c4",
+                  "doc:50:v1:c3"
+                ]
+              },
+              {
+                "productId": 35,
+                "generation": "5d975af3-d596-5b2e-bc8f-8aa57ae1e2c9",
+                "snapshotHash": "20ae2665ce7b5dc3d09df27b28bfee9ab21d3baf528917d83cd76ea79b77eabe",
+                "hits": [
+                  {
+                    "chunkId": "doc:49:v1:c2",
+                    "rank": 1,
+                    "distance": 0.403463602066
+                  },
+                  {
+                    "chunkId": "doc:49:v1:c3",
+                    "rank": 2,
+                    "distance": 0.459635257721
+                  },
+                  {
+                    "chunkId": "doc:49:v1:c4",
+                    "rank": 3,
+                    "distance": 0.485442221165
+                  }
+                ],
+                "suppliedChunkIds": [
+                  "doc:49:v1:c2",
+                  "doc:49:v1:c3",
+                  "doc:49:v1:c4"
+                ]
+              },
+              {
+                "productId": 34,
+                "generation": "8a18808f-2ea1-5f9f-98bb-b7c71f1cc443",
+                "snapshotHash": "a95abe3c28618461e275b049af4bdf6bd2c57d4fe2797d3bcc4470512fc59461",
+                "hits": [
+                  {
+                    "chunkId": "doc:48:v1:c4",
+                    "rank": 1,
+                    "distance": 0.232271552086
+                  },
+                  {
+                    "chunkId": "doc:48:v1:c2",
+                    "rank": 2,
+                    "distance": 0.297226846218
+                  },
+                  {
+                    "chunkId": "doc:48:v1:c3",
+                    "rank": 3,
+                    "distance": 0.392424583435
+                  }
+                ],
+                "suppliedChunkIds": [
+                  "doc:48:v1:c4",
+                  "doc:48:v1:c2",
+                  "doc:48:v1:c3"
+                ]
+              },
+              {
+                "productId": 2,
+                "generation": "d683a33a-07d4-5a74-8f28-23826488557b",
+                "snapshotHash": "7f49b4cce09a408fb2587a79e0f015259216b4a46d471430a1b10946dba99045",
+                "hits": [
+                  {
+                    "chunkId": "doc:2:v1:c2",
+                    "rank": 1,
+                    "distance": 0.45797085762
+                  },
+                  {
+                    "chunkId": "doc:2:v1:c1",
+                    "rank": 2,
+                    "distance": 0.46816688776
+                  },
+                  {
+                    "chunkId": "doc:2:v1:c3",
+                    "rank": 3,
+                    "distance": 0.570263266563
+                  }
+                ],
+                "suppliedChunkIds": [
+                  "doc:2:v1:c2",
+                  "doc:2:v1:c1",
+                  "doc:2:v1:c3"
+                ]
+              },
+              {
+                "productId": 1,
+                "generation": "5d7fd1ad-d19d-5b6e-8794-b8c76f7ea178",
+                "snapshotHash": "2d9ed83182d00ce88aca8c41ba3ebf46937bfefcb396c0bd61b186874e252255",
+                "hits": [
+                  {
+                    "chunkId": "doc:8:v3:c2",
+                    "rank": 1,
+                    "distance": 0.264054715633
+                  },
+                  {
+                    "chunkId": "doc:8:v3:c1",
+                    "rank": 2,
+                    "distance": 0.276542067528
+                  },
+                  {
+                    "chunkId": "doc:8:v3:c4",
+                    "rank": 3,
+                    "distance": 0.498998582363
+                  }
+                ],
+                "suppliedChunkIds": [
+                  "doc:8:v3:c2",
+                  "doc:8:v3:c1",
+                  "doc:8:v3:c4"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "DEV-C14",
+      "requirement": {
+        "id": "82",
+        "userId": "10001",
+        "title": "开发40评测：DEV-C14",
+        "rawText": "固定开发评测；条件见已保存结构。",
+        "structured": {
+          "budgetCents": "50000",
+          "quantity": 1,
+          "categoryIds": [
+            3
+          ],
+          "usage": "基础办公",
+          "mustHave": [
+            "硬件型号M-R0112",
+            "USB无线接收器"
+          ],
+          "optional": [],
+          "items": [
+            {
+              "categoryId": 3,
+              "quantity": 1
+            }
+          ]
+        },
+        "revision": "1",
+        "status": "OPEN",
+        "createdAt": "2026-09-16T21:10:00.030",
+        "updatedAt": "2026-09-16T21:10:00.030"
+      },
+      "result": {
+        "conditions": {
+          "budgetCents": "50000",
+          "quantity": 1,
+          "categoryIds": [
+            3
+          ],
+          "usage": "基础办公",
+          "mustHave": [
+            "硬件型号M-R0112",
+            "USB无线接收器"
+          ],
+          "optional": [],
+          "items": [
+            {
+              "categoryId": 3,
+              "quantity": 1
+            }
+          ]
+        },
+        "questions": [],
+        "adjustments": [],
+        "candidate": {
+          "status": "REFERENCE",
+          "items": [
+            {
+              "productId": 34,
+              "name": "Logitech M330 SILENT PLUS · M-R0112",
+              "categoryId": 3,
+              "specVersion": 1,
+              "saleVersion": 1,
+              "unitPrice": 9900,
+              "quantity": 1,
+              "evidence": [
+                {
+                  "chunkId": "doc:48:v1:c2",
+                  "productId": "34",
+                  "docId": "48",
+                  "version": "1",
+                  "ruleVersion": "chunk-v1",
+                  "charStart": 72,
+                  "charEnd": 175,
+                  "text": "- 资料地区：美国\n- 硬件型号：M-R0112\n- 连接方式：2.4 GHz无线，USB接收器\n- 接收器协议：Logitech non-Unifying\n- 电池：1 × AA\n- 标称DPI：1000",
+                  "docTitle": "Logitech M330 SILENT PLUS · M-R0112 官方规格摘记",
+                  "sourceUrl": "https://support.logi.com/hc/en-us/articles/360023302834-Wireless-Mouse-M330-Technical-Specifications"
+                },
+                {
+                  "chunkId": "doc:48:v1:c4",
+                  "productId": "34",
+                  "docId": "48",
+                  "version": "1",
+                  "ruleVersion": "chunk-v1",
+                  "charStart": 362,
+                  "charEnd": 414,
+                  "text": "限定M-R0112，不混用旧M-R0051的Unifying Ready规格；不标蓝牙或通用接收器兼容。",
+                  "docTitle": "Logitech M330 SILENT PLUS · M-R0112 官方规格摘记",
+                  "sourceUrl": "https://support.logi.com/hc/en-us/articles/360023302834-Wireless-Mouse-M330-Technical-Specifications"
+                }
+              ],
+              "verdict": "UNKNOWN"
+            }
+          ],
+          "totalAmount": 9900,
+          "consideredProducts": 5,
+          "partialPool": true,
+          "semantic": true,
+          "notice": "已按当前商品资料进行向量相似度检索后生成候选，仅覆盖有限商品及每商品前3个片段；用途、必须条件及引用支持关系均待商家核实。未保存为采购方案，不可据此下单。",
+          "retrieval": {
+            "version": "candidate-vector-v1",
+            "model": "text-embedding-v4",
+            "dimensions": 1024,
+            "operationId": "35a039f8-f005-40e5-b837-d933232d7ff1",
+            "queryHash": "ac23f233e11d30fc790ba318f1f56d561f7cd08e51aa3bc99a7789dafe946ddd",
+            "perProductTopK": 3,
+            "products": [
+              {
+                "productId": 36,
+                "generation": "0acdf28b-8f24-5083-90de-9ae4505e1ec3",
+                "snapshotHash": "9998e60c573edf185d1abee285f591b20fcde57ff9dfd38ff75360a47751784b",
+                "hits": [
+                  {
+                    "chunkId": "doc:50:v1:c2",
+                    "rank": 1,
+                    "distance": 0.40336805582
+                  },
+                  {
+                    "chunkId": "doc:50:v1:c4",
+                    "rank": 2,
+                    "distance": 0.424664735794
+                  },
+                  {
+                    "chunkId": "doc:50:v1:c3",
+                    "rank": 3,
+                    "distance": 0.425005674362
+                  }
+                ],
+                "suppliedChunkIds": [
+                  "doc:50:v1:c2",
+                  "doc:50:v1:c4",
+                  "doc:50:v1:c3"
+                ]
+              },
+              {
+                "productId": 35,
+                "generation": "5d975af3-d596-5b2e-bc8f-8aa57ae1e2c9",
+                "snapshotHash": "20ae2665ce7b5dc3d09df27b28bfee9ab21d3baf528917d83cd76ea79b77eabe",
+                "hits": [
+                  {
+                    "chunkId": "doc:49:v1:c2",
+                    "rank": 1,
+                    "distance": 0.375598609447
+                  },
+                  {
+                    "chunkId": "doc:49:v1:c3",
+                    "rank": 2,
+                    "distance": 0.411055505276
+                  },
+                  {
+                    "chunkId": "doc:49:v1:c4",
+                    "rank": 3,
+                    "distance": 0.486190199852
+                  }
+                ],
+                "suppliedChunkIds": [
+                  "doc:49:v1:c2",
+                  "doc:49:v1:c3",
+                  "doc:49:v1:c4"
+                ]
+              },
+              {
+                "productId": 34,
+                "generation": "8a18808f-2ea1-5f9f-98bb-b7c71f1cc443",
+                "snapshotHash": "a95abe3c28618461e275b049af4bdf6bd2c57d4fe2797d3bcc4470512fc59461",
+                "hits": [
+                  {
+                    "chunkId": "doc:48:v1:c2",
+                    "rank": 1,
+                    "distance": 0.239396333694
+                  },
+                  {
+                    "chunkId": "doc:48:v1:c4",
+                    "rank": 2,
+                    "distance": 0.278703033924
+                  },
+                  {
+                    "chunkId": "doc:48:v1:c3",
+                    "rank": 3,
+                    "distance": 0.332860767841
+                  }
+                ],
+                "suppliedChunkIds": [
+                  "doc:48:v1:c2",
+                  "doc:48:v1:c4",
+                  "doc:48:v1:c3"
+                ]
+              },
+              {
+                "productId": 2,
+                "generation": "d683a33a-07d4-5a74-8f28-23826488557b",
+                "snapshotHash": "7f49b4cce09a408fb2587a79e0f015259216b4a46d471430a1b10946dba99045",
+                "hits": [
+                  {
+                    "chunkId": "doc:2:v1:c1",
+                    "rank": 1,
+                    "distance": 0.394201755524
+                  },
+                  {
+                    "chunkId": "doc:2:v1:c2",
+                    "rank": 2,
+                    "distance": 0.414985239506
+                  },
+                  {
+                    "chunkId": "doc:2:v1:c3",
+                    "rank": 3,
+                    "distance": 0.577339887619
+                  }
+                ],
+                "suppliedChunkIds": [
+                  "doc:2:v1:c1",
+                  "doc:2:v1:c2",
+                  "doc:2:v1:c3"
+                ]
+              },
+              {
+                "productId": 1,
+                "generation": "5d7fd1ad-d19d-5b6e-8794-b8c76f7ea178",
+                "snapshotHash": "2d9ed83182d00ce88aca8c41ba3ebf46937bfefcb396c0bd61b186874e252255",
+                "hits": [
+                  {
+                    "chunkId": "doc:8:v3:c1",
+                    "rank": 1,
+                    "distance": 0.216866791248
+                  },
+                  {
+                    "chunkId": "doc:8:v3:c2",
+                    "rank": 2,
+                    "distance": 0.217273592949
+                  },
+                  {
+                    "chunkId": "doc:8:v3:c4",
+                    "rank": 3,
+                    "distance": 0.501936912537
+                  }
+                ],
+                "suppliedChunkIds": [
+                  "doc:8:v3:c1",
+                  "doc:8:v3:c2",
+                  "doc:8:v3:c4"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "DEV-C16",
+      "requirement": {
+        "id": "84",
+        "userId": "10001",
+        "title": "开发40评测：DEV-C16",
+        "rawText": "固定开发评测；条件见已保存结构。",
+        "structured": {
+          "budgetCents": "60000",
+          "quantity": 1,
+          "categoryIds": [
+            4
+          ],
+          "usage": "多设备办公",
+          "mustHave": [
+            "蓝牙连接",
+            "可切换三台设备",
+            "数字键区"
+          ],
+          "optional": [],
+          "items": [
+            {
+              "categoryId": 4,
+              "quantity": 1
+            }
+          ]
+        },
+        "revision": "1",
+        "status": "OPEN",
+        "createdAt": "2026-09-16T21:10:10.615",
+        "updatedAt": "2026-09-16T21:10:10.615"
+      },
+      "result": {
+        "conditions": {
+          "budgetCents": "60000",
+          "quantity": 1,
+          "categoryIds": [
+            4
+          ],
+          "usage": "多设备办公",
+          "mustHave": [
+            "蓝牙连接",
+            "可切换三台设备",
+            "数字键区"
+          ],
+          "optional": [],
+          "items": [
+            {
+              "categoryId": 4,
+              "quantity": 1
+            }
+          ]
+        },
+        "questions": [],
+        "adjustments": [],
+        "candidate": {
+          "status": "REFERENCE",
+          "items": [
+            {
+              "productId": 38,
+              "name": "Logitech K780",
+              "categoryId": 4,
+              "specVersion": 1,
+              "saleVersion": 1,
+              "unitPrice": 49900,
+              "quantity": 1,
+              "evidence": [
+                {
+                  "chunkId": "doc:52:v1:c2",
+                  "productId": "38",
+                  "docId": "52",
+                  "version": "1",
+                  "ruleVersion": "chunk-v1",
+                  "charStart": 50,
+                  "charEnd": 140,
+                  "text": "- 资料地区：英国\n- 连接方式：['Bluetooth', 'Logitech Unifying USB接收器']\n- 可切换设备数：3\n- 数字键区：支持\n- 键位地区：待核实",
+                  "docTitle": "Logitech K780 官方规格摘记",
+                  "sourceUrl": "https://www.logitech.com/en-gb/shop/p/k780-multi-device-wireless-keyboard"
+                },
+                {
+                  "chunkId": "doc:52:v1:c4",
+                  "productId": "38",
+                  "docId": "52",
+                  "version": "1",
+                  "ruleVersion": "chunk-v1",
+                  "charStart": 313,
+                  "charEnd": 358,
+                  "text": "连接协议为Unifying而非Logi Bolt；具体硬件版本、键位地区及斑点款式待核实。",
+                  "docTitle": "Logitech K780 官方规格摘记",
+                  "sourceUrl": "https://www.logitech.com/en-gb/shop/p/k780-multi-device-wireless-keyboard"
+                }
+              ],
+              "verdict": "UNKNOWN"
+            }
+          ],
+          "totalAmount": 49900,
+          "consideredProducts": 3,
+          "partialPool": true,
+          "semantic": true,
+          "notice": "已按当前商品资料进行向量相似度检索后生成候选，仅覆盖有限商品及每商品前3个片段；用途、必须条件及引用支持关系均待商家核实。未保存为采购方案，不可据此下单。",
+          "retrieval": {
+            "version": "candidate-vector-v1",
+            "model": "text-embedding-v4",
+            "dimensions": 1024,
+            "operationId": "0196c372-ddb9-41ab-b309-56ccfbb1626b",
+            "queryHash": "f0117afc84b02206ec6b4c84ef6bc9c7cc148b0852f890c48a6c4f753b313b9b",
+            "perProductTopK": 3,
+            "products": [
+              {
+                "productId": 38,
+                "generation": "f9686a5b-c87f-5509-a5a4-4ea92c32fa2c",
+                "snapshotHash": "0048bff30f83ad236459ae00ca0d6c660c5a528c0803a6f7ce3ca19858551339",
+                "hits": [
+                  {
+                    "chunkId": "doc:52:v1:c2",
+                    "rank": 1,
+                    "distance": 0.278029739857
+                  },
+                  {
+                    "chunkId": "doc:52:v1:c3",
+                    "rank": 2,
+                    "distance": 0.399314403534
+                  },
+                  {
+                    "chunkId": "doc:52:v1:c4",
+                    "rank": 3,
+                    "distance": 0.418630242348
+                  }
+                ],
+                "suppliedChunkIds": [
+                  "doc:52:v1:c2",
+                  "doc:52:v1:c3",
+                  "doc:52:v1:c4"
+                ]
+              },
+              {
+                "productId": 37,
+                "generation": "27560280-39e9-527f-bbbd-eadda6a2f64a",
+                "snapshotHash": "4cf9a9958e5365d6233806c7a453b5a0e935096fabc64da2f9701f00910ca13b",
+                "hits": [
+                  {
+                    "chunkId": "doc:51:v1:c4",
+                    "rank": 1,
+                    "distance": 0.434306621552
+                  },
+                  {
+                    "chunkId": "doc:51:v1:c2",
+                    "rank": 2,
+                    "distance": 0.435499668121
+                  },
+                  {
+                    "chunkId": "doc:51:v1:c3",
+                    "rank": 3,
+                    "distance": 0.444391667843
+                  }
+                ],
+                "suppliedChunkIds": [
+                  "doc:51:v1:c4",
+                  "doc:51:v1:c2",
+                  "doc:51:v1:c3"
+                ]
+              },
+              {
+                "productId": 3,
+                "generation": "159c051d-2a79-5d34-9f84-94608eaf3ef5",
+                "snapshotHash": "25a88af95a7e00239470708cf8e8e39a38511386e8bcc45ff785d390ead4a589",
+                "hits": [
+                  {
+                    "chunkId": "doc:3:v1:c2",
+                    "rank": 1,
+                    "distance": 0.379164397717
+                  },
+                  {
+                    "chunkId": "doc:3:v1:c1",
+                    "rank": 2,
+                    "distance": 0.457485675812
+                  },
+                  {
+                    "chunkId": "doc:3:v1:c3",
+                    "rank": 3,
+                    "distance": 0.572325825691
+                  }
+                ],
+                "suppliedChunkIds": [
+                  "doc:3:v1:c2",
+                  "doc:3:v1:c1",
+                  "doc:3:v1:c3"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "DEV-C18",
+      "requirement": {
+        "id": "86",
+        "userId": "10001",
+        "title": "开发40评测：DEV-C18",
+        "rawText": "固定开发评测；条件见已保存结构。",
+        "structured": {
+          "budgetCents": "60000",
+          "quantity": 1,
+          "categoryIds": [
+            4
+          ],
+          "usage": "地区键位明确的办公录入",
+          "mustHave": [
+            "已核实英国键位布局"
+          ],
+          "optional": [],
+          "items": [
+            {
+              "categoryId": 4,
+              "quantity": 1
+            }
+          ]
+        },
+        "revision": "1",
+        "status": "OPEN",
+        "createdAt": "2026-09-16T21:10:17.843",
+        "updatedAt": "2026-09-16T21:10:17.843"
+      },
+      "result": {
+        "conditions": {
+          "budgetCents": "60000",
+          "quantity": 1,
+          "categoryIds": [
+            4
+          ],
+          "usage": "地区键位明确的办公录入",
+          "mustHave": [
+            "已核实英国键位布局"
+          ],
+          "optional": [],
+          "items": [
+            {
+              "categoryId": 4,
+              "quantity": 1
+            }
+          ]
+        },
+        "questions": [],
+        "adjustments": [],
+        "candidate": {
+          "status": "NO_SELECTION",
+          "items": [],
+          "totalAmount": 0,
+          "consideredProducts": 3,
+          "partialPool": true,
+          "semantic": true,
+          "notice": "已按当前商品资料进行向量相似度检索后生成候选，仅覆盖有限商品及每商品前3个片段；用途、必须条件及引用支持关系均待商家核实。未保存为采购方案，不可据此下单。",
+          "retrieval": {
+            "version": "candidate-vector-v1",
+            "model": "text-embedding-v4",
+            "dimensions": 1024,
+            "operationId": "fdd40d23-5d00-43e3-9668-9eab0e7ea949",
+            "queryHash": "f2f49b10513777951e98161630dc825abfe439114348107be3ef6ddc7ff82c9b",
+            "perProductTopK": 3,
+            "products": [
+              {
+                "productId": 38,
+                "generation": "f9686a5b-c87f-5509-a5a4-4ea92c32fa2c",
+                "snapshotHash": "0048bff30f83ad236459ae00ca0d6c660c5a528c0803a6f7ce3ca19858551339",
+                "hits": [
+                  {
+                    "chunkId": "doc:52:v1:c2",
+                    "rank": 1,
+                    "distance": 0.363667845726
+                  },
+                  {
+                    "chunkId": "doc:52:v1:c1",
+                    "rank": 2,
+                    "distance": 0.434381306171
+                  },
+                  {
+                    "chunkId": "doc:52:v1:c4",
+                    "rank": 3,
+                    "distance": 0.487109959126
+                  }
+                ],
+                "suppliedChunkIds": [
+                  "doc:52:v1:c2",
+                  "doc:52:v1:c1",
+                  "doc:52:v1:c4"
+                ]
+              },
+              {
+                "productId": 37,
+                "generation": "27560280-39e9-527f-bbbd-eadda6a2f64a",
+                "snapshotHash": "4cf9a9958e5365d6233806c7a453b5a0e935096fabc64da2f9701f00910ca13b",
+                "hits": [
+                  {
+                    "chunkId": "doc:51:v1:c4",
+                    "rank": 1,
+                    "distance": 0.297745645046
+                  },
+                  {
+                    "chunkId": "doc:51:v1:c2",
+                    "rank": 2,
+                    "distance": 0.356406569481
+                  },
+                  {
+                    "chunkId": "doc:51:v1:c1",
+                    "rank": 3,
+                    "distance": 0.43450397253
+                  }
+                ],
+                "suppliedChunkIds": [
+                  "doc:51:v1:c4",
+                  "doc:51:v1:c2",
+                  "doc:51:v1:c1"
+                ]
+              },
+              {
+                "productId": 3,
+                "generation": "159c051d-2a79-5d34-9f84-94608eaf3ef5",
+                "snapshotHash": "25a88af95a7e00239470708cf8e8e39a38511386e8bcc45ff785d390ead4a589",
+                "hits": [
+                  {
+                    "chunkId": "doc:3:v1:c1",
+                    "rank": 1,
+                    "distance": 0.389943301678
+                  },
+                  {
+                    "chunkId": "doc:3:v1:c2",
+                    "rank": 2,
+                    "distance": 0.589676260948
+                  },
+                  {
+                    "chunkId": "doc:3:v1:c3",
+                    "rank": 3,
+                    "distance": 0.694607675076
+                  }
+                ],
+                "suppliedChunkIds": [
+                  "doc:3:v1:c1",
+                  "doc:3:v1:c2",
+                  "doc:3:v1:c3"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "products": [
+    {
+      "id": "36",
+      "name": "Logitech M720 Triathlon 黑色",
+      "brand": "Logitech",
+      "series": "M720 Triathlon 黑色",
+      "categoryId": 3,
+      "description": "三台指设备配对与切换，不是接收器外设容量；不承诺Flow无需软件即可使用。",
+      "specJson": {
+        "scrolling": "高速与逐行双模式",
+        "connections": [
+          "Bluetooth",
+          "Logitech Unifying USB接收器"
+        ],
+        "source_region": "美国",
+        "hand_orientation": "右手",
+        "max_switchable_devices": 3
+      },
+      "specVersion": "1",
+      "status": "PUBLISHED",
+      "sale": {
+        "productId": "36",
+        "price": "29900",
+        "stock": 20,
+        "onSale": true,
+        "saleVersion": "1"
+      },
+      "priceAvailable": true,
+      "purchasable": true,
+      "purchaseMessage": "可购买"
+    },
+    {
+      "id": "35",
+      "name": "Logitech M235 灰色",
+      "brand": "Logitech",
+      "series": "M235 灰色",
+      "categoryId": 3,
+      "description": "硬件版本、地区货号及DPI待核实；左右键交换可能需要软件配置。",
+      "specJson": {
+        "sensor": "光学",
+        "scrolling": "逐行滚动",
+        "connection": "USB无线接收器",
+        "source_region": "阿联酋",
+        "hand_orientation": "左右手均可使用"
+      },
+      "specVersion": "1",
+      "status": "PUBLISHED",
+      "sale": {
+        "productId": "35",
+        "price": "8900",
+        "stock": 20,
+        "onSale": true,
+        "saleVersion": "1"
+      },
+      "priceAvailable": true,
+      "purchasable": true,
+      "purchaseMessage": "可购买"
+    },
+    {
+      "id": "34",
+      "name": "Logitech M330 SILENT PLUS · M-R0112",
+      "brand": "Logitech",
+      "series": "M330 SILENT PLUS · M-R0112",
+      "categoryId": 3,
+      "description": "限定M-R0112，不混用旧M-R0051的Unifying Ready规格；不标蓝牙或通用接收器兼容。",
+      "specJson": {
+        "battery": "1 × AA",
+        "connection": "2.4 GHz无线，USB接收器",
+        "dpi_nominal": 1000,
+        "source_region": "美国",
+        "hardware_model": "M-R0112",
+        "receiver_protocol": "Logitech non-Unifying"
+      },
+      "specVersion": "1",
+      "status": "PUBLISHED",
+      "sale": {
+        "productId": "34",
+        "price": "9900",
+        "stock": 20,
+        "onSale": true,
+        "saleVersion": "1"
+      },
+      "priceAvailable": true,
+      "purchasable": true,
+      "purchaseMessage": "可购买"
+    },
+    {
+      "id": "2",
+      "name": "罗技 M100 有线鼠标",
+      "brand": "罗技",
+      "series": "M100",
+      "categoryId": 3,
+      "description": "USB 有线光学鼠标，适合基础桌面办公。",
+      "specJson": {
+        "sensor": "光学",
+        "connection": "USB 有线",
+        "dpi_nominal": 1000,
+        "button_count": 3,
+        "cable_length_m": 1.8
+      },
+      "specVersion": "1",
+      "status": "PUBLISHED",
+      "sale": {
+        "productId": "2",
+        "price": "3900",
+        "stock": 18,
+        "onSale": true,
+        "saleVersion": "1"
+      },
+      "priceAvailable": true,
+      "purchasable": true,
+      "purchaseMessage": "可购买"
+    },
+    {
+      "id": "1",
+      "name": "罗技 M185 无线鼠标（MR0102）",
+      "brand": "罗技",
+      "series": "M185 MR0102",
+      "categoryId": 3,
+      "description": "采用 USB 接收器的入门无线鼠标。此档案限定 MR0102 硬件版本，采购时需核对机身型号。",
+      "specJson": {
+        "sensor": "光学",
+        "battery": "1 × AA",
+        "connection": "2.4 GHz 无线，USB 接收器",
+        "dpi_nominal": 1000,
+        "hardware_model": "MR0102"
+      },
+      "specVersion": "5",
+      "status": "PUBLISHED",
+      "sale": {
+        "productId": "1",
+        "price": "7900",
+        "stock": 20,
+        "onSale": true,
+        "saleVersion": "29"
+      },
+      "priceAvailable": true,
+      "purchasable": true,
+      "purchaseMessage": "可购买"
+    },
+    {
+      "id": "38",
+      "name": "Logitech K780",
+      "brand": "Logitech",
+      "series": "K780",
+      "categoryId": 4,
+      "description": "连接协议为Unifying而非Logi Bolt；具体硬件版本、键位地区及斑点款式待核实。",
+      "specJson": {
+        "number_pad": true,
+        "connections": [
+          "Bluetooth",
+          "Logitech Unifying USB接收器"
+        ],
+        "source_region": "英国",
+        "keyboard_layout_region": "待核实",
+        "max_switchable_devices": 3
+      },
+      "specVersion": "1",
+      "status": "PUBLISHED",
+      "sale": {
+        "productId": "38",
+        "price": "49900",
+        "stock": 20,
+        "onSale": true,
+        "saleVersion": "1"
+      },
+      "priceAvailable": true,
+      "purchasable": true,
+      "purchaseMessage": "可购买"
+    },
+    {
+      "id": "37",
+      "name": "Logitech K270 · 920-003745",
+      "brand": "Logitech",
+      "series": "K270 · 920-003745",
+      "categoryId": 4,
+      "description": "英国网页不等于已核实英式键位；具体键位地区需按实物货号核实，不标蓝牙。",
+      "specJson": {
+        "connection": "Logitech Unifying USB接收器",
+        "layout_size": "全尺寸，带数字键区",
+        "source_region": "英国",
+        "shortcut_key_count": 8,
+        "adjustable_tilt_legs": true,
+        "keyboard_layout_region": "待核实"
+      },
+      "specVersion": "1",
+      "status": "PUBLISHED",
+      "sale": {
+        "productId": "37",
+        "price": "14900",
+        "stock": 20,
+        "onSale": true,
+        "saleVersion": "1"
+      },
+      "priceAvailable": true,
+      "purchasable": true,
+      "purchaseMessage": "可购买"
+    },
+    {
+      "id": "3",
+      "name": "罗技 K120 全尺寸有线键盘",
+      "brand": "罗技",
+      "series": "K120",
+      "categoryId": 4,
+      "description": "带数字键区的全尺寸 USB 键盘；本档案不承诺地区键位布局，采购时按具体货号核对。",
+      "specJson": {
+        "connection": "USB 有线",
+        "number_pad": true,
+        "layout_size": "全尺寸",
+        "plug_and_play": true,
+        "adjustable_tilt_legs": true
+      },
+      "specVersion": "1",
+      "status": "PUBLISHED",
+      "sale": {
+        "productId": "3",
+        "price": "6900",
+        "stock": 19,
+        "onSale": true,
+        "saleVersion": "1"
+      },
+      "priceAvailable": true,
+      "purchasable": true,
+      "purchaseMessage": "可购买"
+    }
+  ]
+}

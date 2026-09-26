@@ -1,0 +1,345 @@
+[
+  {
+    "sku": "dell-p2425h-uk",
+    "name": "Dell P2425H · 210-BMFF",
+    "brand": "Dell",
+    "series": "P2425H · 210-BMFF",
+    "categoryId": 1,
+    "imageUrl": null,
+    "description": "USB-C接口仅用于下行数据与最高15W供电；不能当作笔记本视频输入。",
+    "specJson": {
+      "source_region": "英国",
+      "screen_inches": 23.8,
+      "resolution": "1920 × 1080",
+      "refresh_rate_hz": 100,
+      "usb_c_role": "下行数据接口，最高15W，不传视频"
+    },
+    "sourceUrl": "https://www.dell.com/en-uk/shop/p2425h-monitor/apd/210-bmff/monitors-monitor-accessories",
+    "sourceCheckedAt": "2026-09-16",
+    "sourceLocator": "Tech Specs / Diagonal Size, Native Resolution, Refresh Rate, Interfaces",
+    "content": "# Dell P2425H · 210-BMFF 官方资料摘记\n\n核对日期：2026-09-16；资料地区：英国。\n\n- 资料地区：英国\n- 屏幕尺寸（英寸）：23.8\n- 分辨率：1920 × 1080\n- 刷新率（Hz）：100\n- USB-C用途：下行数据接口，最高15W，不传视频\n\n来源：https://www.dell.com/en-uk/shop/p2425h-monitor/apd/210-bmff/monitors-monitor-accessories\n页面定位：Tech Specs / Diagonal Size, Native Resolution, Refresh Rate, Interfaces\n\n## 选购边界\nUSB-C接口仅用于下行数据与最高15W供电；不能当作笔记本视频输入。\n\n本站售价与库存是虚构的采购流程演示值，不是厂商报价或真实供货承诺。地区网页不等于中国大陆在售版本；实际采购须复核货号、接口、供电及系统兼容性。",
+    "price": 129900,
+    "stock": 20
+  },
+  {
+    "sku": "dell-p2425he-sg",
+    "name": "Dell P2425HE · 210-BMNH",
+    "brand": "Dell",
+    "series": "P2425HE · 210-BMNH",
+    "categoryId": 1,
+    "imageUrl": null,
+    "description": "笔记本需支持相应视频协议；上行视频接口与下行数据接口不可混用，主机兼容性待逐机核实。",
+    "specJson": {
+      "source_region": "新加坡",
+      "screen_inches": 23.8,
+      "resolution": "1920 × 1080",
+      "refresh_rate_hz": 100,
+      "usb_c_role": "上行支持DP 1.4 Alt Mode，最高90W；下行最高15W仅数据"
+    },
+    "sourceUrl": "https://www.dell.com/en-sg/shop/dell-24-usb-c-hub-monitor-p2425he/apd/210-bmnh/monitors-monitor-accessories",
+    "sourceCheckedAt": "2026-09-16",
+    "sourceLocator": "Tech Specs / Display, Connectivity",
+    "content": "# Dell P2425HE · 210-BMNH 官方资料摘记\n\n核对日期：2026-09-16；资料地区：新加坡。\n\n- 资料地区：新加坡\n- 屏幕尺寸（英寸）：23.8\n- 分辨率：1920 × 1080\n- 刷新率（Hz）：100\n- USB-C用途：上行支持DP 1.4 Alt Mode，最高90W；下行最高15W仅数据\n\n来源：https://www.dell.com/en-sg/shop/dell-24-usb-c-hub-monitor-p2425he/apd/210-bmnh/monitors-monitor-accessories\n页面定位：Tech Specs / Display, Connectivity\n\n## 选购边界\n笔记本需支持相应视频协议；上行视频接口与下行数据接口不可混用，主机兼容性待逐机核实。\n\n本站售价与库存是虚构的采购流程演示值，不是厂商报价或真实供货承诺。地区网页不等于中国大陆在售版本；实际采购须复核货号、接口、供电及系统兼容性。",
+    "price": 189900,
+    "stock": 20
+  },
+  {
+    "sku": "dell-u2724de-us",
+    "name": "Dell U2724DE · 210-BKSJ",
+    "brand": "Dell",
+    "series": "U2724DE · 210-BKSJ",
+    "categoryId": 1,
+    "imageUrl": null,
+    "description": "Thunderbolt上行与独立USB-C数据上行功能不同；不承诺任意USB-C主机均可输出视频。",
+    "specJson": {
+      "source_region": "美国",
+      "screen_inches": 27,
+      "resolution": "2560 × 1440",
+      "refresh_rate_hz": 120,
+      "usb_c_role": "Thunderbolt 4上行视频与数据，最高90W；独立USB-C上行仅数据"
+    },
+    "sourceUrl": "https://www.dell.com/en-us/shop/dell-ultrasharp-27-thunderbolt-hub-monitor-u2724de/apd/210-bksj/monitors-monitor-accessories",
+    "sourceCheckedAt": "2026-09-16",
+    "sourceLocator": "Tech Specs / Native Resolution, Interfaces",
+    "content": "# Dell U2724DE · 210-BKSJ 官方资料摘记\n\n核对日期：2026-09-16；资料地区：美国。\n\n- 资料地区：美国\n- 屏幕尺寸（英寸）：27\n- 分辨率：2560 × 1440\n- 刷新率（Hz）：120\n- USB-C用途：Thunderbolt 4上行视频与数据，最高90W；独立USB-C上行仅数据\n\n来源：https://www.dell.com/en-us/shop/dell-ultrasharp-27-thunderbolt-hub-monitor-u2724de/apd/210-bksj/monitors-monitor-accessories\n页面定位：Tech Specs / Native Resolution, Interfaces\n\n## 选购边界\nThunderbolt上行与独立USB-C数据上行功能不同；不承诺任意USB-C主机均可输出视频。\n\n本站售价与库存是虚构的采购流程演示值，不是厂商报价或真实供货承诺。地区网页不等于中国大陆在售版本；实际采购须复核货号、接口、供电及系统兼容性。",
+    "price": 359900,
+    "stock": 20
+  },
+  {
+    "sku": "brother-hll2405w-us",
+    "name": "Brother HL-L2405W",
+    "brand": "Brother",
+    "series": "HL-L2405W",
+    "categoryId": 2,
+    "imageUrl": null,
+    "description": "不支持自动双面打印。资料为美国型号，供电及中国大陆耗材/驱动适配待核实。",
+    "specJson": {
+      "source_region": "美国",
+      "printing_technology": "激光",
+      "print_color": "黑白",
+      "automatic_duplex": false,
+      "connection": "USB 2.0 / 双频Wi-Fi"
+    },
+    "sourceUrl": "https://www.brother-usa.com/p/laser-printers/HLL2405W",
+    "sourceCheckedAt": "2026-09-16",
+    "sourceLocator": "Specifications / Standard Interface, Automatic Duplex Printing",
+    "content": "# Brother HL-L2405W 官方资料摘记\n\n核对日期：2026-09-16；资料地区：美国。\n\n- 资料地区：美国\n- 打印技术：激光\n- 打印颜色：黑白\n- 自动双面打印：不支持\n- 连接方式：USB 2.0 / 双频Wi-Fi\n\n来源：https://www.brother-usa.com/p/laser-printers/HLL2405W\n页面定位：Specifications / Standard Interface, Automatic Duplex Printing\n\n## 选购边界\n不支持自动双面打印。资料为美国型号，供电及中国大陆耗材/驱动适配待核实。\n\n本站售价与库存是虚构的采购流程演示值，不是厂商报价或真实供货承诺。地区网页不等于中国大陆在售版本；实际采购须复核货号、接口、供电及系统兼容性。",
+    "price": 89900,
+    "stock": 20
+  },
+  {
+    "sku": "brother-hll2460dw-us",
+    "name": "Brother HL-L2460DW",
+    "brand": "Brother",
+    "series": "HL-L2460DW",
+    "categoryId": 2,
+    "imageUrl": null,
+    "description": "资料对应美国110–120V版本，不能直接按中国大陆220V供电使用；本条只用于采购流程演示。",
+    "specJson": {
+      "source_region": "美国",
+      "printing_technology": "激光",
+      "print_color": "黑白",
+      "automatic_duplex": true,
+      "connection": "USB 2.0 / 双频Wi-Fi / 以太网",
+      "power_input": "110–120V AC，50/60Hz"
+    },
+    "sourceUrl": "https://www.brother-usa.com/p/laser-printers/HLL2460DW",
+    "sourceCheckedAt": "2026-09-16",
+    "sourceLocator": "Specifications / Standard Interface, Power Source, Automatic Duplex Printing",
+    "content": "# Brother HL-L2460DW 官方资料摘记\n\n核对日期：2026-09-16；资料地区：美国。\n\n- 资料地区：美国\n- 打印技术：激光\n- 打印颜色：黑白\n- 自动双面打印：支持\n- 连接方式：USB 2.0 / 双频Wi-Fi / 以太网\n- 输入电源：110–120V AC，50/60Hz\n\n来源：https://www.brother-usa.com/p/laser-printers/HLL2460DW\n页面定位：Specifications / Standard Interface, Power Source, Automatic Duplex Printing\n\n## 选购边界\n资料对应美国110–120V版本，不能直接按中国大陆220V供电使用；本条只用于采购流程演示。\n\n本站售价与库存是虚构的采购流程演示值，不是厂商报价或真实供货承诺。地区网页不等于中国大陆在售版本；实际采购须复核货号、接口、供电及系统兼容性。",
+    "price": 129900,
+    "stock": 20
+  },
+  {
+    "sku": "epson-et2850-black-us",
+    "name": "Epson EcoTank ET-2850 黑色 · C11CJ63201",
+    "brand": "Epson",
+    "series": "EcoTank ET-2850 黑色 · C11CJ63201",
+    "categoryId": 2,
+    "imageUrl": null,
+    "description": "只对应美国黑色C11CJ63201版本；供电、耗材地区和主机兼容性待核实。",
+    "specJson": {
+      "source_region": "美国",
+      "functions": [
+        "打印",
+        "扫描",
+        "复印"
+      ],
+      "print_color": "彩色",
+      "automatic_duplex": true,
+      "consumable": "墨仓"
+    },
+    "sourceUrl": "https://epson.com/For-Work/Printers/Inkjet/EcoTank-ET-2850-Wireless-Color-All-in-One-Cartridge-Free-Supertank-Printer-with-Scan,-Copy-and-Auto-2-sided-Printing/p/C11CJ63201",
+    "sourceCheckedAt": "2026-09-16",
+    "sourceLocator": "Model C11CJ63201 / Overview / Eco Features",
+    "content": "# Epson EcoTank ET-2850 黑色 · C11CJ63201 官方资料摘记\n\n核对日期：2026-09-16；资料地区：美国。\n\n- 资料地区：美国\n- 功能：['打印', '扫描', '复印']\n- 打印颜色：彩色\n- 自动双面打印：支持\n- 耗材类型：墨仓\n\n来源：https://epson.com/For-Work/Printers/Inkjet/EcoTank-ET-2850-Wireless-Color-All-in-One-Cartridge-Free-Supertank-Printer-with-Scan,-Copy-and-Auto-2-sided-Printing/p/C11CJ63201\n页面定位：Model C11CJ63201 / Overview / Eco Features\n\n## 选购边界\n只对应美国黑色C11CJ63201版本；供电、耗材地区和主机兼容性待核实。\n\n本站售价与库存是虚构的采购流程演示值，不是厂商报价或真实供货承诺。地区网页不等于中国大陆在售版本；实际采购须复核货号、接口、供电及系统兼容性。",
+    "price": 199900,
+    "stock": 20
+  },
+  {
+    "sku": "logitech-c920s-es",
+    "name": "Logitech C920s",
+    "brand": "Logitech",
+    "series": "C920s",
+    "categoryId": 5,
+    "imageUrl": null,
+    "description": "对应C920s而非C920；具体地区货号和主机软件兼容性待核实。",
+    "specJson": {
+      "source_region": "西班牙",
+      "video_resolution": "1920 × 1080",
+      "video_fps": 30,
+      "microphone": "双麦克风立体声",
+      "privacy_shutter": true
+    },
+    "sourceUrl": "https://www.logitech.com/es-es/shop/p/c920s-pro-hd-webcam",
+    "sourceCheckedAt": "2026-09-16",
+    "sourceLocator": "Descripción / ESTUPENDAS VIDEOLLAMADAS / AUDIO ESTÉREO",
+    "content": "# Logitech C920s 官方资料摘记\n\n核对日期：2026-09-16；资料地区：西班牙。\n\n- 资料地区：西班牙\n- 视频分辨率：1920 × 1080\n- 帧率（fps）：30\n- 麦克风：双麦克风立体声\n- 隐私遮挡盖：支持\n\n来源：https://www.logitech.com/es-es/shop/p/c920s-pro-hd-webcam\n页面定位：Descripción / ESTUPENDAS VIDEOLLAMADAS / AUDIO ESTÉREO\n\n## 选购边界\n对应C920s而非C920；具体地区货号和主机软件兼容性待核实。\n\n本站售价与库存是虚构的采购流程演示值，不是厂商报价或真实供货承诺。地区网页不等于中国大陆在售版本；实际采购须复核货号、接口、供电及系统兼容性。",
+    "price": 49900,
+    "stock": 20
+  },
+  {
+    "sku": "logitech-c310-us",
+    "name": "Logitech C310",
+    "brand": "Logitech",
+    "series": "C310",
+    "categoryId": 5,
+    "imageUrl": null,
+    "description": "该支持页只明确640×480时最高30fps，不据此承诺720p时30fps；页面发布时系统列表不代表当前兼容性。",
+    "specJson": {
+      "source_region": "美国技术支持页",
+      "video_resolution": "720p",
+      "connection": "USB 2.0有线",
+      "focus": "固定焦距",
+      "microphone": "内置，支持噪声抑制"
+    },
+    "sourceUrl": "https://support.logi.com/hc/en-us/articles/360023464573-Logitech-HD-Webcam-C310-Technical-Specifications",
+    "sourceCheckedAt": "2026-09-16",
+    "sourceLocator": "Camera Specifications / Video Capture (16:9 W), USB Type, Focus Type, Microphone",
+    "content": "# Logitech C310 官方资料摘记\n\n核对日期：2026-09-16；资料地区：美国技术支持页。\n\n- 资料地区：美国技术支持页\n- 视频分辨率：720p\n- 连接方式：USB 2.0有线\n- 对焦方式：固定焦距\n- 麦克风：内置，支持噪声抑制\n\n来源：https://support.logi.com/hc/en-us/articles/360023464573-Logitech-HD-Webcam-C310-Technical-Specifications\n页面定位：Camera Specifications / Video Capture (16:9 W), USB Type, Focus Type, Microphone\n\n## 选购边界\n该支持页只明确640×480时最高30fps，不据此承诺720p时30fps；页面发布时系统列表不代表当前兼容性。\n\n本站售价与库存是虚构的采购流程演示值，不是厂商报价或真实供货承诺。地区网页不等于中国大陆在售版本；实际采购须复核货号、接口、供电及系统兼容性。",
+    "price": 15900,
+    "stock": 20
+  },
+  {
+    "sku": "logitech-h111-ph",
+    "name": "Logitech H111 · A-00021",
+    "brand": "Logitech",
+    "series": "H111 · A-00021",
+    "categoryId": 6,
+    "imageUrl": null,
+    "description": "单插头耳麦需要匹配主机耳麦接口；分离的耳机和麦克风插孔可能需要适配器，适配器不在本条承诺内。",
+    "specJson": {
+      "source_region": "菲律宾英文技术支持页",
+      "connection": "单3.5mm插头",
+      "cable_length_m": 1.8,
+      "microphone": "可旋转麦杆",
+      "inline_controls": false
+    },
+    "sourceUrl": "https://support.logi.com/hc/en-ph/articles/360023464233-Stereo-Headset-H111-Technical-Specifications",
+    "sourceCheckedAt": "2026-09-16",
+    "sourceLocator": "Technical Specifications / Connection Type, Cable Length, Inline Audio Controls",
+    "content": "# Logitech H111 · A-00021 官方资料摘记\n\n核对日期：2026-09-16；资料地区：菲律宾英文技术支持页。\n\n- 资料地区：菲律宾英文技术支持页\n- 连接方式：单3.5mm插头\n- 线长（米）：1.8\n- 麦克风：可旋转麦杆\n- 线控功能：不支持\n\n来源：https://support.logi.com/hc/en-ph/articles/360023464233-Stereo-Headset-H111-Technical-Specifications\n页面定位：Technical Specifications / Connection Type, Cable Length, Inline Audio Controls\n\n## 选购边界\n单插头耳麦需要匹配主机耳麦接口；分离的耳机和麦克风插孔可能需要适配器，适配器不在本条承诺内。\n\n本站售价与库存是虚构的采购流程演示值，不是厂商报价或真实供货承诺。地区网页不等于中国大陆在售版本；实际采购须复核货号、接口、供电及系统兼容性。",
+    "price": 7900,
+    "stock": 20
+  },
+  {
+    "sku": "logitech-h540-nz",
+    "name": "Logitech H540",
+    "brand": "Logitech",
+    "series": "H540",
+    "categoryId": 6,
+    "imageUrl": null,
+    "description": "降噪麦克风不等于耳机主动降噪；具体地区货号及主机兼容性待核实。",
+    "specJson": {
+      "source_region": "新西兰英文技术支持页",
+      "connection": "USB有线",
+      "cable_length_m": 1.8,
+      "microphone": "可旋转麦杆",
+      "earcup_controls": "音量与静音"
+    },
+    "sourceUrl": "https://support.logi.com/hc/en-nz/articles/360023304934-Logitech-USB-Headset-H540-Technical-Specifications",
+    "sourceCheckedAt": "2026-09-16",
+    "sourceLocator": "Technical Specifications / Connection Type, Audio Controls, Cable Length",
+    "content": "# Logitech H540 官方资料摘记\n\n核对日期：2026-09-16；资料地区：新西兰英文技术支持页。\n\n- 资料地区：新西兰英文技术支持页\n- 连接方式：USB有线\n- 线长（米）：1.8\n- 麦克风：可旋转麦杆\n- 耳罩控制：音量与静音\n\n来源：https://support.logi.com/hc/en-nz/articles/360023304934-Logitech-USB-Headset-H540-Technical-Specifications\n页面定位：Technical Specifications / Connection Type, Audio Controls, Cable Length\n\n## 选购边界\n降噪麦克风不等于耳机主动降噪；具体地区货号及主机兼容性待核实。\n\n本站售价与库存是虚构的采购流程演示值，不是厂商报价或真实供货承诺。地区网页不等于中国大陆在售版本；实际采购须复核货号、接口、供电及系统兼容性。",
+    "price": 29900,
+    "stock": 20
+  },
+  {
+    "sku": "logitech-m330-mr0112-us",
+    "name": "Logitech M330 SILENT PLUS · M-R0112",
+    "brand": "Logitech",
+    "series": "M330 SILENT PLUS · M-R0112",
+    "categoryId": 3,
+    "imageUrl": null,
+    "description": "限定M-R0112，不混用旧M-R0051的Unifying Ready规格；不标蓝牙或通用接收器兼容。",
+    "specJson": {
+      "source_region": "美国",
+      "hardware_model": "M-R0112",
+      "connection": "2.4 GHz无线，USB接收器",
+      "receiver_protocol": "Logitech non-Unifying",
+      "battery": "1 × AA",
+      "dpi_nominal": 1000
+    },
+    "sourceUrl": "https://support.logi.com/hc/en-us/articles/360023302834-Wireless-Mouse-M330-Technical-Specifications",
+    "sourceCheckedAt": "2026-09-16",
+    "sourceLocator": "M-R0112 / Wireless Protocol, Connection Type, Battery Details, DPI",
+    "content": "# Logitech M330 SILENT PLUS · M-R0112 官方资料摘记\n\n核对日期：2026-09-16；资料地区：美国。\n\n- 资料地区：美国\n- 硬件型号：M-R0112\n- 连接方式：2.4 GHz无线，USB接收器\n- 接收器协议：Logitech non-Unifying\n- 电池：1 × AA\n- 标称DPI：1000\n\n来源：https://support.logi.com/hc/en-us/articles/360023302834-Wireless-Mouse-M330-Technical-Specifications\n页面定位：M-R0112 / Wireless Protocol, Connection Type, Battery Details, DPI\n\n## 选购边界\n限定M-R0112，不混用旧M-R0051的Unifying Ready规格；不标蓝牙或通用接收器兼容。\n\n本站售价与库存是虚构的采购流程演示值，不是厂商报价或真实供货承诺。地区网页不等于中国大陆在售版本；实际采购须复核货号、接口、供电及系统兼容性。",
+    "price": 9900,
+    "stock": 20
+  },
+  {
+    "sku": "logitech-m235-grey-ae",
+    "name": "Logitech M235 灰色",
+    "brand": "Logitech",
+    "series": "M235 灰色",
+    "categoryId": 3,
+    "imageUrl": null,
+    "description": "硬件版本、地区货号及DPI待核实；左右键交换可能需要软件配置。",
+    "specJson": {
+      "source_region": "阿联酋",
+      "connection": "USB无线接收器",
+      "sensor": "光学",
+      "scrolling": "逐行滚动",
+      "hand_orientation": "左右手均可使用"
+    },
+    "sourceUrl": "https://www.logitech.com/en-ae/shop/p/m235-wireless-mouse",
+    "sourceCheckedAt": "2026-09-16",
+    "sourceLocator": "Color Grey / EASY NAVIGATION, PRECISE CONTROL / PLUG & PLAY SIMPLICITY",
+    "content": "# Logitech M235 灰色 官方资料摘记\n\n核对日期：2026-09-16；资料地区：阿联酋。\n\n- 资料地区：阿联酋\n- 连接方式：USB无线接收器\n- 传感器：光学\n- 滚轮模式：逐行滚动\n- 手型：左右手均可使用\n\n来源：https://www.logitech.com/en-ae/shop/p/m235-wireless-mouse\n页面定位：Color Grey / EASY NAVIGATION, PRECISE CONTROL / PLUG & PLAY SIMPLICITY\n\n## 选购边界\n硬件版本、地区货号及DPI待核实；左右键交换可能需要软件配置。\n\n本站售价与库存是虚构的采购流程演示值，不是厂商报价或真实供货承诺。地区网页不等于中国大陆在售版本；实际采购须复核货号、接口、供电及系统兼容性。",
+    "price": 8900,
+    "stock": 20
+  },
+  {
+    "sku": "logitech-m720-us",
+    "name": "Logitech M720 Triathlon 黑色",
+    "brand": "Logitech",
+    "series": "M720 Triathlon 黑色",
+    "categoryId": 3,
+    "imageUrl": null,
+    "description": "三台指设备配对与切换，不是接收器外设容量；不承诺Flow无需软件即可使用。",
+    "specJson": {
+      "source_region": "美国",
+      "connections": [
+        "Bluetooth",
+        "Logitech Unifying USB接收器"
+      ],
+      "max_switchable_devices": 3,
+      "scrolling": "高速与逐行双模式",
+      "hand_orientation": "右手"
+    },
+    "sourceUrl": "https://www.logitech.com/en-us/shop/p/m720-triathlon",
+    "sourceCheckedAt": "2026-09-16",
+    "sourceLocator": "Full-sized comfort / Ultra-precise navigation / Flexible and compatible / Multi-device flow",
+    "content": "# Logitech M720 Triathlon 黑色 官方资料摘记\n\n核对日期：2026-09-16；资料地区：美国。\n\n- 资料地区：美国\n- 连接方式：['Bluetooth', 'Logitech Unifying USB接收器']\n- 可切换设备数：3\n- 滚轮模式：高速与逐行双模式\n- 手型：右手\n\n来源：https://www.logitech.com/en-us/shop/p/m720-triathlon\n页面定位：Full-sized comfort / Ultra-precise navigation / Flexible and compatible / Multi-device flow\n\n## 选购边界\n三台指设备配对与切换，不是接收器外设容量；不承诺Flow无需软件即可使用。\n\n本站售价与库存是虚构的采购流程演示值，不是厂商报价或真实供货承诺。地区网页不等于中国大陆在售版本；实际采购须复核货号、接口、供电及系统兼容性。",
+    "price": 29900,
+    "stock": 20
+  },
+  {
+    "sku": "logitech-k270-uk",
+    "name": "Logitech K270 · 920-003745",
+    "brand": "Logitech",
+    "series": "K270 · 920-003745",
+    "categoryId": 4,
+    "imageUrl": null,
+    "description": "英国网页不等于已核实英式键位；具体键位地区需按实物货号核实，不标蓝牙。",
+    "specJson": {
+      "source_region": "英国",
+      "connection": "Logitech Unifying USB接收器",
+      "layout_size": "全尺寸，带数字键区",
+      "shortcut_key_count": 8,
+      "adjustable_tilt_legs": true,
+      "keyboard_layout_region": "待核实"
+    },
+    "sourceUrl": "https://www.logitech.com/en-gb/shop/p/k270-unifying-wireless.920-003745",
+    "sourceCheckedAt": "2026-09-16",
+    "sourceLocator": "Full-size wireless keyboard / Comfortable and efficient / Simply wireless",
+    "content": "# Logitech K270 · 920-003745 官方资料摘记\n\n核对日期：2026-09-16；资料地区：英国。\n\n- 资料地区：英国\n- 连接方式：Logitech Unifying USB接收器\n- 键盘尺寸：全尺寸，带数字键区\n- 快捷键数量：8\n- 可调支脚：支持\n- 键位地区：待核实\n\n来源：https://www.logitech.com/en-gb/shop/p/k270-unifying-wireless.920-003745\n页面定位：Full-size wireless keyboard / Comfortable and efficient / Simply wireless\n\n## 选购边界\n英国网页不等于已核实英式键位；具体键位地区需按实物货号核实，不标蓝牙。\n\n本站售价与库存是虚构的采购流程演示值，不是厂商报价或真实供货承诺。地区网页不等于中国大陆在售版本；实际采购须复核货号、接口、供电及系统兼容性。",
+    "price": 14900,
+    "stock": 20
+  },
+  {
+    "sku": "logitech-k780-uk",
+    "name": "Logitech K780",
+    "brand": "Logitech",
+    "series": "K780",
+    "categoryId": 4,
+    "imageUrl": null,
+    "description": "连接协议为Unifying而非Logi Bolt；具体硬件版本、键位地区及斑点款式待核实。",
+    "specJson": {
+      "source_region": "英国",
+      "connections": [
+        "Bluetooth",
+        "Logitech Unifying USB接收器"
+      ],
+      "max_switchable_devices": 3,
+      "number_pad": true,
+      "keyboard_layout_region": "待核实"
+    },
+    "sourceUrl": "https://www.logitech.com/en-gb/shop/p/k780-multi-device-wireless-keyboard",
+    "sourceCheckedAt": "2026-09-16",
+    "sourceLocator": "Multi-device flow / Compact with an integrated cradle / Flexible and compatible",
+    "content": "# Logitech K780 官方资料摘记\n\n核对日期：2026-09-16；资料地区：英国。\n\n- 资料地区：英国\n- 连接方式：['Bluetooth', 'Logitech Unifying USB接收器']\n- 可切换设备数：3\n- 数字键区：支持\n- 键位地区：待核实\n\n来源：https://www.logitech.com/en-gb/shop/p/k780-multi-device-wireless-keyboard\n页面定位：Multi-device flow / Compact with an integrated cradle / Flexible and compatible\n\n## 选购边界\n连接协议为Unifying而非Logi Bolt；具体硬件版本、键位地区及斑点款式待核实。\n\n本站售价与库存是虚构的采购流程演示值，不是厂商报价或真实供货承诺。地区网页不等于中国大陆在售版本；实际采购须复核货号、接口、供电及系统兼容性。",
+    "price": 49900,
+    "stock": 20
+  }
+]

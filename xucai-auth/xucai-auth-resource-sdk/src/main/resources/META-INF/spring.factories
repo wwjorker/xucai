@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.xucai.authsdk.resource.config.ResourceInterceptorConfiguration, \
+  com.xucai.authsdk.resource.config.FeignRelayUserAutoConfiguration

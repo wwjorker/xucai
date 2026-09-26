@@ -1,0 +1,53 @@
+server:
+  port: 10010
+  tomcat:
+    uri-encoding: UTF-8
+spring:
+  profiles:
+    active: portable,xucai
+  application:
+    name: xucai-gateway
+  cloud:
+    gateway:
+      routes:
+      - id: auth
+        uri: lb://xucai-auth
+        predicates:
+        - Path=/auth/**
+        filters:
+        - PreserveHostHeader
+      - id: users
+        uri: lb://xucai-user
+        predicates:
+        - Path=/users/**
+      - id: catalog
+        uri: lb://xucai-catalog
+        predicates:
+        - Path=/catalog/**
+      - id: trade
+        uri: lb://xucai-trade
+        predicates:
+        - Path=/trade/**
+      - id: ai
+        uri: lb://xucai-ai
+        predicates:
+        - Path=/ai/**
+      default-filters:
+      - StripPrefix=1
+      globalcors:
+        add-to-simple-url-handler-mapping: true
+        corsConfigurations:
+          '[/**]':
+            allowedOriginPatterns:
+            - '*'
+            allowedMethods:
+            - GET
+            - POST
+            - DELETE
+            - PUT
+            - OPTIONS
+            allowedHeaders: '*'
+            allowCredentials: true
+            maxAge: 360000
+xucai:
+  isolation-required: true

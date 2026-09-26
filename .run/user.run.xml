@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="序采-用户" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="com.xucai.XucaiUserApplication" />
+    <module name="xucai-user" />
+    <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=portable,xucai &quot;--spring.config.additional-location=file:$PROJECT_DIR$/.runtime/idea-private.properties&quot;" />
+    <option name="VM_PARAMETERS" value="-Xms64m -Xmx512m -XX:ActiveProcessorCount=2 -Dfile.encoding=UTF-8" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <shortenClasspath name="ARGS_FILE" />
+    <method v="2"><option name="Make" enabled="true" /></method>
+  </configuration>
+</component>

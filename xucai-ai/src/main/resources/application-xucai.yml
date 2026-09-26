@@ -1,0 +1,57 @@
+spring:
+  jackson:
+    deserialization:
+      accept-float-as-int: false
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration
+      - org.springframework.boot.autoconfigure.data.mongo.MongoDataAutoConfiguration
+  config:
+    import: classpath:xucai-isolation.yml
+  cloud:
+    loadbalancer:
+      retry:
+        enabled: false
+    openfeign:
+      client:
+        config:
+          candidateCatalog:
+            connectTimeout: 1500
+            readTimeout: 2500
+          requirement:
+            connectTimeout: 1500
+            readTimeout: 2500
+          assistantTrade:
+            connectTimeout: 1500
+            readTimeout: 3000
+  data:
+    redis:
+      database: 0
+  ai:
+    dashscope:
+      api-key: disabled-in-slice-0
+      base-url: http://127.0.0.1:9
+      chat:
+        api-key: disabled-in-slice-0
+        base-url: http://127.0.0.1:9
+      embedding:
+        api-key: disabled-in-slice-0
+        base-url: http://127.0.0.1:9
+    vectorstore:
+      redis:
+        initialize-schema: false
+        index-name: xucai-knowledge
+        prefix: "xucai:vector:"
+xucai:
+  procurement:
+    retrieval:
+      enabled: ${XUCAI_RETRIEVAL_ENABLED:false}
+    model:
+      enabled: ${XUCAI_REQUIREMENT_MODEL_ENABLED:false}
+      name: ${XUCAI_GENERATION_MODEL:qwen3.7-flash-2026-07-15}
+  redis:
+    database: 0
+  ai:
+    memory:
+      key-prefix: "xucai:chat:"
+    generate-status-key: "xucai:generate-status"

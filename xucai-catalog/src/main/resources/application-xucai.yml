@@ -1,0 +1,30 @@
+spring:
+  servlet:
+    multipart:
+      max-file-size: 2MB
+      max-request-size: 3MB
+  config:
+    import: classpath:xucai-isolation.yml
+  cloud:
+    loadbalancer:
+      retry:
+        enabled: false
+    openfeign:
+      client:
+        config:
+          sale:
+            connectTimeout: 1500
+            readTimeout: 2500
+          catalog:
+            connectTimeout: 1500
+            readTimeout: 2500
+
+xucai:
+  auth:
+    resource:
+      enable: true
+      includeLoginPaths: ["/**"]
+      excludeLoginPaths: ["/products", "/products/**"]
+
+  oss:
+    config-file: ${XUCAI_OSS_CONFIG:}

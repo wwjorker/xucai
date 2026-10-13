@@ -1,4 +1,4 @@
--- 切片1a：只建立新采购库商品表，不自动清空已有数据。
+-- 创建采购目录商品表，不自动清空已有数据。
 USE xucai_catalog;
 CREATE TABLE IF NOT EXISTS product (
  id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,

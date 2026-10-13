@@ -69,11 +69,6 @@ public class Knife4jConfiguration {
     // public BaseSwaggerResponseBuilderPlugin baseSwaggerResponseBuilderPlugin(){
     //     return new BaseSwaggerResponseBuilderPlugin();
     // }
-    // {
-    //     // hutool的日期转换器加载
-    //     ConverterRegistry converterRegistry = ConverterRegistry.getInstance();
-    //     converterRegistry.putCustom(LocalDateTime.class, new TjTemporalConverter(LocalDateTime.class));
-    // }
 
     @Bean
     public TypeResolver typeResolver() {

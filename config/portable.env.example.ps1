@@ -19,10 +19,9 @@ $env:XUCAI_DISCOVERY_IP='127.0.0.1' # Must be reachable by the six app processes
 $env:XUCAI_REQUIREMENT_MODEL_ENABLED='false'
 $env:XUCAI_RETRIEVAL_ENABLED='false'
 $env:XUCAI_GENERATION_MODEL='qwen3.7-flash-2026-07-15'
-$env:XUCAI_MODEL_MAX_CALLS='30'
-$env:XUCAI_EMBEDDING_MAX_CALLS='6'
-$env:XUCAI_EMBEDDING_MAX_QUERIES='10'
-# Optional later, after a bounded model budget is prepared: $env:XUCAI_DASHSCOPE_KEY='...'
+# Optional: enable the model only with your own account configuration.
+# Usage is recorded; there is no local cumulative call-count or spending cap.
+# $env:XUCAI_DASHSCOPE_KEY='...'
 $jwtFile=Join-Path (Split-Path $PSScriptRoot -Parent) '.runtime/portable-jwt/jwt-env.json'
 if (-not (Test-Path -LiteralPath $jwtFile)) { throw 'Generate an independent local JWT keystore first.' }
 $jwtSettings=Get-Content -LiteralPath $jwtFile -Raw | ConvertFrom-Json

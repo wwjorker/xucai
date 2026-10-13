@@ -14,11 +14,13 @@ export const router = createRouter({
       component: () => import("./pages/CheckoutPage.vue"),
       meta: { buyer: true },
     },
-    {
-      path: "/design/assistant",
-      component: () => import("./pages/AssistantPreviewPage.vue"),
-      meta: { standalone: true },
-    },
+    ...(import.meta.env.DEV
+      ? [{
+          path: "/design/assistant",
+          component: () => import("./pages/AssistantPreviewPage.vue"),
+          meta: { standalone: true },
+        }]
+      : []),
     {
       path: "/guide",
       name: "procurement-guide",

@@ -1,4 +1,4 @@
--- 切片5b：只在采购目录库新增派生片段与索引表。正文事实源仍是 product_doc.content，
+-- 在采购目录库创建资料片段与检索索引表。正文事实源仍是 product_doc.content，
 -- 本文件不修改 product/product_doc 的任何一行。
 -- 失败恢复：两条 CREATE 各自独立，中断后重新执行即可（IF NOT EXISTS 幂等）；
 -- 片段可由 POST /admin/products/{id}/docs/{docId}/reindex 随时整版重建，无需手工补数据。

@@ -87,7 +87,7 @@
             <artifactId>spring-ai-alibaba-starter-dashscope</artifactId>
         </dependency>
 
-        <!-- MongoDB 对话记忆替换练习 -->
+        <!-- 当前会话由应用服务通过 JDBC 持久化；xucai profile 已排除 MongoDB 自动配置。 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-mongodb</artifactId>
@@ -107,10 +107,8 @@
             <groupId>org.springframework.ai</groupId>
             <artifactId>spring-ai-advisors-vector-store</artifactId>
         </dependency>
-        <!-- 练习3：向量库从 Elasticsearch 换成 redis-stack。
-             ES 的两个依赖先注释掉，想换回去把下面这段的注释去掉、把 redis 那个注释上即可。
-             注意：ES 和 Redis 两个 vector-store starter 不能同时存在，
-             否则容器里会出现两个 VectorStore Bean，启动直接报错。 -->
+        <!-- 当前检索由 RedisProcurementIndex 使用 Jedis 访问独立的 Redis Stack 索引。
+             下列 Elasticsearch 依赖未启用；更换存储需要适配检索接口并验证数据隔离。 -->
         <!--<dependency>-->
         <!--    <groupId>org.springframework.ai</groupId>-->
         <!--    <artifactId>spring-ai-starter-vector-store-elasticsearch</artifactId>-->
@@ -127,8 +125,8 @@
         <!--    <version>8.15.5</version>-->
         <!--</dependency>-->
 
-        <!-- redis-stack 作为向量库。它内部用的是 Jedis，不是 Spring Boot 默认的 Lettuce，
-             所以配置里必须写 spring.data.redis.client-type: jedis -->
+        <!-- 保留现有 Redis Vector Store starter 及其传递依赖。
+             业务索引通过自有 VectorIndex 接口管理，不由通用 VectorStore 自动建表。 -->
         <dependency>
             <groupId>org.springframework.ai</groupId>
             <artifactId>spring-ai-starter-vector-store-redis</artifactId>

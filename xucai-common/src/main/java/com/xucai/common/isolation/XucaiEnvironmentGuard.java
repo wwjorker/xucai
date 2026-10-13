@@ -45,9 +45,9 @@ public class XucaiEnvironmentGuard implements EnvironmentPostProcessor, Ordered 
         require(env.getProperty("spring.data.redis.database", Integer.class, -1) == (ai ? 0 : 15), "Redis 逻辑库未隔离");
         if (ai) {
             for (String prefix : new String[]{"spring.ai.dashscope", "spring.ai.dashscope.chat", "spring.ai.dashscope.embedding"}) {
-                require("http://127.0.0.1:9".equals(env.getProperty(prefix + ".base-url")), "切片0禁止外部模型地址");
+                require("http://127.0.0.1:9".equals(env.getProperty(prefix + ".base-url")), "Spring AI 自动配置的模型地址必须为 http://127.0.0.1:9，模型调用须通过采购模块配置");
             }
-            require("false".equals(env.getProperty("spring.ai.vectorstore.redis.initialize-schema")), "切片0禁止向量初始化探测");
+            require("false".equals(env.getProperty("spring.ai.vectorstore.redis.initialize-schema")), "spring.ai.vectorstore.redis.initialize-schema 必须为 false，禁止自动初始化向量索引");
             for (String key : new String[]{"xucai.ai.memory.key-prefix", "xucai.ai.generate-status-key", "spring.ai.vectorstore.redis.prefix"}) {
                 require(env.getProperty(key, "").startsWith("xucai:"), "AI Redis 键未隔离：" + key);
             }

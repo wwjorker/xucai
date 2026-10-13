@@ -1,4 +1,4 @@
--- 切片0：创建 xucai_* 独立库和演示账号。
+-- 创建 xucai_* 独立业务库和演示账号。
 -- MySQL 8；演示账号 buyer_demo / merchant_demo，密码 XucaiDemo2026!。
 SET NAMES utf8mb4;
 CREATE DATABASE IF NOT EXISTS `xucai_auth` CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
